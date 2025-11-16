@@ -1,8 +1,8 @@
-# 🌿 FOODMEDS- Personalised Diet and Health Tracker
+# 🌿 FOODMEDS- Personalised Diet and Health Tracker(Release 1)
 
-A full-stack health insights web application that computes BMI, **calorie needs, **nutrient breakdown, and **body composition using manual logic and APIs  
+A full-stack health insights web application that computes BMI, **calorie needs**, **nutrient breakdown**, and **body composition** using manual logic and APIs  
 
-Users can sign up, view personalized dashboards, edit profiles, and explore modular UI pages — all backed by a clean React frontend and secure Firebase storage.
+Users can sign up, view personalized dashboards, edit profiles, and explore modular UI pages — all backed by a clean React frontend and secure Mongo Db storage.
 
 ---
 
@@ -36,6 +36,9 @@ The objective is to build a self-contained health engine without third-party API
 ### 🔹 Composition Explorer Page
 - Shows the contents of each food item selected by the user.
 
+### 🔹 Disease Cure and Nutrition Guide Page
+- Gives the required nutrients and foods based on given disease or symptoms.
+
 ### 🔹 Modular Navigation
 - Separate pages for Sign-Up, Dashboard, Profile, Additional, and Composite navigation.
 
@@ -64,7 +67,6 @@ Gives the content of each food item selected in flashcards.
 ### 🔸 3. Dashboard / Body Composition
 Manually calculates and displays :
 - BMI  
-- Calorie needs  
 - Ideal body weight
 - Body composition 
  in easily understandable way 
@@ -72,18 +74,18 @@ Manually calculates and displays :
 ### 🔸 4. Profile Page
 Displays and allows editing of user details stored in MongoDB.
 
-
 ### 🔸 5. Nutrition Guide Page
 Gives the required nutrients and proteins based on give disease or symptoms.
 
-### 🔸 5. Diet Planner Page
-Gives the diet based on the given disease.
+### 🔸 6. About Page
+Gives the details about our web application.
 
 ---
 
 ## ▶ Usage Guide
 
-   1.When you open the web application, it will open the welcome page (Image 1)
+   1.When you open the web application, it will open the welcome page.
+   <img src="Images/Image1.png" alt="App Screenshot" width="300" height="550"/>
         
    2.Register using the Sign-Up page.  (Image 2)
 
