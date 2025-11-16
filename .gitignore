@@ -1,0 +1,24 @@
+# --- Backend ---
+backend/node_modules/
+backend/.env
+backend/.env.*
+
+# allow example file
+!backend/.env.example
+
+# --- Frontend ---
+frontend/node_modules/
+frontend/.env
+frontend/.env.*
+
+# allow example file
+!frontend/.env.example
+
+# --- General ---
+.env
+.env.*
+!.env.example
+dist/
+build/
+.vscode/
+.DS_Store

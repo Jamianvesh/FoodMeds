@@ -1,0 +1,1504 @@
+[
+   {
+      "name": "Common Cold",
+      "symptoms": ["Runny nose", "Sore throat", "Cough", "Sneezing", "Mild fever"],
+      "vitamins": [
+        { "name": "Vitamin C", "benefit": "Boosts immune system, reduces duration", "dosage": "500-1000mg daily" },
+        { "name": "Vitamin D", "benefit": "Supports immune function", "dosage": "1000-2000 IU daily" },
+        { "name": "Zinc", "benefit": "Shortens cold duration", "dosage": "15-30mg daily" }
+      ],
+      "foods": [
+        { "name": "Citrus fruits", "nutrients": "Vitamin C", "benefit": "Immune boost" },
+        { "name": "Garlic", "nutrients": "Allicin", "benefit": "Antimicrobial properties" },
+        { "name": "Ginger tea", "nutrients": "Gingerol", "benefit": "Anti-inflammatory" },
+        { "name": "Chicken soup", "nutrients": "Protein, minerals", "benefit": "Hydration and nutrients" },
+        { "name": "Honey", "nutrients": "Antioxidants", "benefit": "Soothes throat" }
+      ],
+      "generalAdvice": "Rest, stay hydrated, and maintain good hygiene"
+    },
+    {
+      "name": "Anemia",
+      "symptoms": ["Fatigue", "Weakness", "Pale skin", "Shortness of breath", "Dizziness"],
+      "vitamins": [
+        { "name": "Iron", "benefit": "Essential for red blood cell production", "dosage": "18-27mg daily" },
+        { "name": "Vitamin B12", "benefit": "Supports red blood cell formation", "dosage": "2.4mcg daily" },
+        { "name": "Folate (B9)", "benefit": "Necessary for cell division", "dosage": "400-800mcg daily" },
+        { "name": "Vitamin C", "benefit": "Enhances iron absorption", "dosage": "75-90mg daily" }
+      ],
+      "foods": [
+        { "name": "Red meat", "nutrients": "Iron, B12", "benefit": "High bioavailable iron" },
+        { "name": "Spinach", "nutrients": "Iron, folate", "benefit": "Plant-based iron source" },
+        { "name": "Lentils", "nutrients": "Iron, protein", "benefit": "Rich in nutrients" },
+        { "name": "Eggs", "nutrients": "Iron, B12", "benefit": "Complete protein" },
+        { "name": "Fortified cereals", "nutrients": "Iron, B vitamins", "benefit": "Easy to consume" }
+      ],
+      "generalAdvice": "Consult doctor for blood tests, avoid tea/coffee with meals"
+    },
+    {
+      "name": "Osteoporosis",
+      "symptoms": ["Bone fractures", "Loss of height", "Back pain", "Stooped posture"],
+      "vitamins": [
+        { "name": "Calcium", "benefit": "Builds and maintains bone density", "dosage": "1000-1200mg daily" },
+        { "name": "Vitamin D", "benefit": "Enables calcium absorption", "dosage": "800-1000 IU daily" },
+        { "name": "Vitamin K", "benefit": "Helps bind calcium to bones", "dosage": "90-120mcg daily" },
+        { "name": "Magnesium", "benefit": "Supports bone structure", "dosage": "300-400mg daily" }
+      ],
+      "foods": [
+        { "name": "Dairy products", "nutrients": "Calcium, protein", "benefit": "High calcium content" },
+        { "name": "Fatty fish", "nutrients": "Vitamin D, omega-3", "benefit": "Natural vitamin D source" },
+        { "name": "Leafy greens", "nutrients": "Calcium, vitamin K", "benefit": "Plant-based calcium" },
+        { "name": "Almonds", "nutrients": "Calcium, magnesium", "benefit": "Nutrient-dense snack" },
+        { "name": "Fortified tofu", "nutrients": "Calcium, protein", "benefit": "Vegan option" }
+      ],
+      "generalAdvice": "Weight-bearing exercises, adequate sun exposure, avoid smoking"
+    },
+    {
+      "name": "Diabetes Type 2",
+      "symptoms": ["Increased thirst", "Frequent urination", "Fatigue", "Blurred vision", "Slow healing"],
+      "vitamins": [
+        { "name": "Chromium", "benefit": "Improves insulin sensitivity", "dosage": "200-400mcg daily" },
+        { "name": "Magnesium", "benefit": "Helps regulate blood sugar", "dosage": "300-400mg daily" },
+        { "name": "Vitamin D", "benefit": "Supports insulin function", "dosage": "1000-2000 IU daily" },
+        { "name": "Alpha-lipoic acid", "benefit": "Antioxidant, improves insulin sensitivity", "dosage": "300-600mg daily" }
+      ],
+      "foods": [
+        { "name": "Whole grains", "nutrients": "Fiber, B vitamins", "benefit": "Slow glucose release" },
+        { "name": "Legumes", "nutrients": "Protein, fiber", "benefit": "Low glycemic index" },
+        { "name": "Leafy vegetables", "nutrients": "Magnesium, fiber", "benefit": "Low carb, nutrient-dense" },
+        { "name": "Nuts", "nutrients": "Healthy fats, magnesium", "benefit": "Improves blood sugar control" },
+        { "name": "Cinnamon", "nutrients": "Polyphenols", "benefit": "May lower blood sugar" }
+      ],
+      "generalAdvice": "Regular exercise, monitor blood sugar, maintain healthy weight"
+    },
+    {
+      "name": "Hypertension (High Blood Pressure)",
+      "symptoms": ["Headaches", "Shortness of breath", "Nosebleeds", "Chest pain"],
+      "vitamins": [
+        { "name": "Potassium", "benefit": "Helps regulate blood pressure", "dosage": "3500-4700mg daily" },
+        { "name": "Magnesium", "benefit": "Relaxes blood vessels", "dosage": "300-400mg daily" },
+        { "name": "Calcium", "benefit": "Supports vascular function", "dosage": "1000-1200mg daily" },
+        { "name": "Omega-3", "benefit": "Reduces inflammation", "dosage": "1000-2000mg daily" }
+      ],
+      "foods": [
+        { "name": "Bananas", "nutrients": "Potassium", "benefit": "Natural BP reducer" },
+        { "name": "Beets", "nutrients": "Nitrates", "benefit": "Dilates blood vessels" },
+        { "name": "Fatty fish", "nutrients": "Omega-3", "benefit": "Anti-inflammatory" },
+        { "name": "Oats", "nutrients": "Fiber, magnesium", "benefit": "Heart-healthy" },
+        { "name": "Dark chocolate", "nutrients": "Flavonoids", "benefit": "Improves blood flow" }
+      ],
+      "generalAdvice": "Reduce sodium intake, regular exercise, stress management"
+    },
+    {
+      "name": "Depression",
+      "symptoms": ["Persistent sadness", "Loss of interest", "Fatigue", "Sleep changes", "Concentration issues"],
+      "vitamins": [
+        { "name": "Vitamin D", "benefit": "Mood regulation", "dosage": "1000-2000 IU daily" },
+        { "name": "Omega-3", "benefit": "Brain health, mood support", "dosage": "1000-2000mg daily" },
+        { "name": "B-Complex", "benefit": "Neurotransmitter production", "dosage": "As directed" },
+        { "name": "Folate", "benefit": "Supports serotonin production", "dosage": "400-800mcg daily" }
+      ],
+      "foods": [
+        { "name": "Fatty fish", "nutrients": "Omega-3, vitamin D", "benefit": "Brain health" },
+        { "name": "Walnuts", "nutrients": "Omega-3, magnesium", "benefit": "Mood support" },
+        { "name": "Dark leafy greens", "nutrients": "Folate, magnesium", "benefit": "Neurotransmitter support" },
+        { "name": "Fermented foods", "nutrients": "Probiotics", "benefit": "Gut-brain connection" },
+        { "name": "Berries", "nutrients": "Antioxidants", "benefit": "Reduces inflammation" }
+      ],
+      "generalAdvice": "Seek professional help, regular exercise, social connections"
+    },
+    {
+      "name": "Arthritis",
+      "symptoms": ["Joint pain", "Stiffness", "Swelling", "Reduced range of motion"],
+      "vitamins": [
+        { "name": "Omega-3", "benefit": "Reduces inflammation", "dosage": "2000-3000mg daily" },
+        { "name": "Vitamin D", "benefit": "Supports bone health", "dosage": "1000-2000 IU daily" },
+        { "name": "Vitamin C", "benefit": "Collagen production", "dosage": "75-120mg daily" },
+        { "name": "Glucosamine", "benefit": "Cartilage support", "dosage": "1500mg daily" }
+      ],
+      "foods": [
+        { "name": "Fatty fish", "nutrients": "Omega-3", "benefit": "Anti-inflammatory" },
+        { "name": "Turmeric", "nutrients": "Curcumin", "benefit": "Powerful anti-inflammatory" },
+        { "name": "Ginger", "nutrients": "Gingerol", "benefit": "Reduces pain and inflammation" },
+        { "name": "Berries", "nutrients": "Antioxidants", "benefit": "Fights inflammation" },
+        { "name": "Green tea", "nutrients": "Polyphenols", "benefit": "Anti-inflammatory properties" }
+      ],
+      "generalAdvice": "Low-impact exercise, maintain healthy weight, hot/cold therapy"
+    },
+    {
+      "name": "Insomnia",
+      "symptoms": ["Difficulty falling asleep", "Waking up frequently", "Daytime fatigue", "Irritability"],
+      "vitamins": [
+        { "name": "Magnesium", "benefit": "Promotes relaxation", "dosage": "200-400mg before bed" },
+        { "name": "Vitamin B6", "benefit": "Melatonin production", "dosage": "1.3-1.7mg daily" },
+        { "name": "Melatonin", "benefit": "Regulates sleep cycle", "dosage": "0.5-5mg before bed" },
+        { "name": "Vitamin D", "benefit": "Sleep quality", "dosage": "1000-2000 IU daily" }
+      ],
+      "foods": [
+        { "name": "Almonds", "nutrients": "Magnesium, melatonin", "benefit": "Sleep promotion" },
+        { "name": "Chamomile tea", "nutrients": "Apigenin", "benefit": "Calming effect" },
+        { "name": "Kiwi", "nutrients": "Serotonin", "benefit": "Improves sleep onset" },
+        { "name": "Fatty fish", "nutrients": "Omega-3, vitamin D", "benefit": "Sleep quality" },
+        { "name": "Tart cherry juice", "nutrients": "Melatonin", "benefit": "Natural sleep aid" }
+      ],
+      "generalAdvice": "Sleep schedule, avoid screens before bed, relaxation techniques"
+    },
+    {
+      "name": "Acne",
+      "symptoms": ["Pimples", "Blackheads", "Oily skin", "Scarring"],
+      "vitamins": [
+        { "name": "Vitamin A", "benefit": "Reduces oil production", "dosage": "700-900mcg daily" },
+        { "name": "Zinc", "benefit": "Anti-inflammatory, antibacterial", "dosage": "15-30mg daily" },
+        { "name": "Vitamin E", "benefit": "Antioxidant, skin healing", "dosage": "15mg daily" },
+        { "name": "Vitamin C", "benefit": "Collagen production", "dosage": "75-90mg daily" }
+      ],
+      "foods": [
+        { "name": "Sweet potatoes", "nutrients": "Vitamin A", "benefit": "Skin cell turnover" },
+        { "name": "Pumpkin seeds", "nutrients": "Zinc", "benefit": "Reduces inflammation" },
+        { "name": "Salmon", "nutrients": "Omega-3", "benefit": "Anti-inflammatory" },
+        { "name": "Green tea", "nutrients": "Antioxidants", "benefit": "Reduces sebum production" },
+        { "name": "Avocados", "nutrients": "Vitamin E", "benefit": "Skin health" }
+      ],
+      "generalAdvice": "Gentle cleansing, avoid touching face, reduce dairy and sugar"
+    },
+    {
+      "name": "Migraine",
+      "symptoms": ["Severe headache", "Nausea", "Light sensitivity", "Visual disturbances"],
+      "vitamins": [
+        { "name": "Magnesium", "benefit": "Reduces frequency and severity", "dosage": "400-600mg daily" },
+        { "name": "Riboflavin (B2)", "benefit": "Prevents migraines", "dosage": "400mg daily" },
+        { "name": "CoQ10", "benefit": "Cellular energy, migraine prevention", "dosage": "100-300mg daily" },
+        { "name": "Vitamin D", "benefit": "May reduce frequency", "dosage": "1000-2000 IU daily" }
+      ],
+      "foods": [
+        { "name": "Spinach", "nutrients": "Magnesium, riboflavin", "benefit": "Migraine prevention" },
+        { "name": "Fatty fish", "nutrients": "Omega-3, CoQ10", "benefit": "Anti-inflammatory" },
+        { "name": "Quinoa", "nutrients": "Magnesium, riboflavin", "benefit": "Nutrient-dense" },
+        { "name": "Mushrooms", "nutrients": "Riboflavin", "benefit": "Natural B2 source" },
+        { "name": "Ginger", "nutrients": "Gingerol", "benefit": "Nausea relief" }
+      ],
+      "generalAdvice": "Identify triggers, regular sleep schedule, stress management"
+    },
+    {
+    "name": "Tuberculosis (TB)",
+    "symptoms": ["Persistent cough", "Chest pain", "Fever", "Night sweats", "Weight loss"],
+    "vitamins": [
+      { "name": "Vitamin D", "benefit": "Boosts immune defense against TB bacteria", "dosage": "1000–2000 IU daily" },
+      { "name": "Vitamin A", "benefit": "Supports lung and mucosal immunity", "dosage": "700–900mcg daily" },
+      { "name": "Zinc", "benefit": "Improves immune cell function and healing", "dosage": "8–11mg daily" },
+      { "name": "Vitamin C", "benefit": "Helps tissue repair and recovery", "dosage": "75–90mg daily" }
+    ],
+    "foods": [
+      { "name": "Eggs", "nutrients": "Protein, B vitamins", "benefit": "Supports tissue repair" },
+      { "name": "Milk", "nutrients": "Protein, calcium", "benefit": "Builds strength and energy" },
+      { "name": "Nuts", "nutrients": "Healthy fats, zinc", "benefit": "Boosts calories and immunity" },
+      { "name": "Citrus fruits", "nutrients": "Vitamin C", "benefit": "Improves immune recovery" },
+      { "name": "Whole grains", "nutrients": "Complex carbs, fiber", "benefit": "Sustains energy levels" }
+    ],
+    "generalAdvice": "Complete antibiotic treatment, eat nutritious meals, rest well, avoid alcohol and smoking."
+  },
+  {
+    "name": "Malaria",
+    "symptoms": ["High fever", "Chills", "Headache", "Sweating", "Fatigue"],
+    "vitamins": [
+      { "name": "Vitamin C", "benefit": "Strengthens immune response", "dosage": "75–90mg daily" },
+      { "name": "Vitamin E", "benefit": "Reduces oxidative stress from infection", "dosage": "15mg daily" },
+      { "name": "Iron", "benefit": "Restores red blood cells destroyed by malaria", "dosage": "18mg daily" },
+      { "name": "Folate (B9)", "benefit": "Aids blood formation", "dosage": "400mcg daily" }
+    ],
+    "foods": [
+      { "name": "Coconut water", "nutrients": "Electrolytes", "benefit": "Prevents dehydration" },
+      { "name": "Leafy greens", "nutrients": "Iron, folate", "benefit": "Replenishes lost nutrients" },
+      { "name": "Papaya", "nutrients": "vitamins A & C", "benefit": "Supports recovery" },
+      { "name": "Lean meats", "nutrients": "Protein, iron", "benefit": "Rebuilds strength" },
+      { "name": "Soup and broth", "nutrients": "Protein, minerals", "benefit": "Easy to digest and hydrating" }
+    ],
+    "generalAdvice": "Complete prescribed antimalarial treatment, rest well, stay hydrated, and use mosquito protection."
+  },
+
+  {
+    "name": "Dengue Fever",
+    "symptoms": ["High fever", "Severe headache", "Joint pain", "Rash", "Low platelet count"],
+    "vitamins": [
+      { "name": "Vitamin C", "benefit": "Boosts immunity and collagen synthesis", "dosage": "500–1000mg daily" },
+      { "name": "Vitamin K", "benefit": "Aids blood clotting", "dosage": "90–120mcg daily" },
+      { "name": "Folate (B9)", "benefit": "Helps blood cell formation", "dosage": "400mcg daily" },
+      { "name": "Iron", "benefit": "Restores hemoglobin", "dosage": "18mg daily" }
+    ],
+    "foods": [
+      { "name": "Papaya leaf extract", "nutrients": "Enzymes", "benefit": "May help raise platelet count" },
+      { "name": "Coconut water", "nutrients": "Electrolytes", "benefit": "Prevents dehydration" },
+      { "name": "Kiwi & oranges", "nutrients": "Vitamin C", "benefit": "Boosts recovery" },
+      { "name": "Pomegranate", "nutrients": "Iron, antioxidants", "benefit": "Supports blood health" },
+      { "name": "Soups and broths", "nutrients": "Protein, minerals", "benefit": "Gentle and hydrating" }
+    ],
+    "generalAdvice": "Drink plenty of fluids, monitor platelets, avoid NSAIDs, and rest completely until recovery."
+  },
+
+  {
+    "name": "Chikungunya",
+    "symptoms": ["High fever", "Severe joint pain", "Fatigue", "Headache", "Rash"],
+    "vitamins": [
+      { "name": "Vitamin C", "benefit": "Supports immune system and healing", "dosage": "500mg daily" },
+      { "name": "Vitamin E", "benefit": "Reduces inflammation and oxidative stress", "dosage": "15mg daily" },
+      { "name": "Calcium", "benefit": "Supports bone and joint recovery", "dosage": "1000mg daily" },
+      { "name": "Vitamin D", "benefit": "Improves calcium absorption", "dosage": "1000 IU daily" }
+    ],
+    "foods": [
+      { "name": "Citrus fruits", "nutrients": "Vitamin C", "benefit": "Boosts immunity" },
+      { "name": "Turmeric milk", "nutrients": "Curcumin, calcium", "benefit": "Anti-inflammatory and joint support" },
+      { "name": "Soups", "nutrients": "Protein, minerals", "benefit": "Easy to digest" },
+      { "name": "Leafy greens", "nutrients": "Calcium, antioxidants", "benefit": "Reduces inflammation" },
+      { "name": "Papaya", "nutrients": "vitamins A & C", "benefit": "Aids recovery" }
+    ],
+    "generalAdvice": "Rest well, stay hydrated, manage joint pain with warm compresses, and eat anti-inflammatory foods."
+  },
+
+  {
+    "name": "Typhoid Fever",
+    "symptoms": ["Prolonged fever", "Abdominal pain", "Weakness", "Loss of appetite", "Headache"],
+    "vitamins": [
+      { "name": "Vitamin A", "benefit": "Supports gut and immune health", "dosage": "700–900mcg daily" },
+      { "name": "Vitamin C", "benefit": "Promotes healing and immunity", "dosage": "75–90mg daily" },
+      { "name": "Zinc", "benefit": "Aids intestinal repair", "dosage": "8–11mg daily" },
+      { "name": "Folate (B9)", "benefit": "Promotes cell recovery", "dosage": "400mcg daily" }
+    ],
+    "foods": [
+      { "name": "Boiled rice", "nutrients": "Carbohydrates", "benefit": "Gentle on stomach" },
+      { "name": "Bananas", "nutrients": "Potassium", "benefit": "Restores electrolytes" },
+      { "name": "Coconut water", "nutrients": "Electrolytes", "benefit": "Prevents dehydration" },
+      { "name": "Steamed vegetables", "nutrients": "Fiber, vitamins", "benefit": "Easily digestible nutrition" },
+      { "name": "Soups and broths", "nutrients": "Protein, minerals", "benefit": "Aids recovery and hydration" }
+    ],
+    "generalAdvice": "Take full antibiotic course, eat light easily digestible meals, maintain hydration, and rest."
+  },
+
+  {
+    "name": "Cholera",
+    "symptoms": ["Severe watery diarrhea", "Vomiting", "Dehydration", "Muscle cramps", "Low blood pressure"],
+    "vitamins": [
+      { "name": "Zinc", "benefit": "Reduces diarrhea severity and duration", "dosage": "10–20mg daily" },
+      { "name": "Vitamin C", "benefit": "Supports immunity and recovery", "dosage": "75–90mg daily" },
+      { "name": "Potassium", "benefit": "Replaces lost electrolytes", "dosage": "3500–4700mg daily" },
+      { "name": "Sodium", "benefit": "Maintains fluid balance", "dosage": "As part of ORS solution" }
+    ],
+    "foods": [
+      { "name": "ORS solution", "nutrients": "Electrolytes", "benefit": "Prevents dehydration" },
+      { "name": "Coconut water", "nutrients": "Potassium, sodium", "benefit": "Natural rehydration source" },
+      { "name": "Rice gruel", "nutrients": "Carbs, electrolytes", "benefit": "Gentle for digestion" },
+      { "name": "Bananas", "nutrients": "Potassium", "benefit": "Restores electrolytes" },
+      { "name": "Boiled potatoes", "nutrients": "Carbs, minerals", "benefit": "Easily digestible energy source" }
+    ],
+    "generalAdvice": "Rehydrate immediately with ORS, avoid raw food or street water, maintain strict hygiene."
+  },
+
+  {
+    "name": "Hepatitis A",
+    "symptoms": ["Fatigue", "Loss of appetite", "Nausea", "Jaundice", "Abdominal pain"],
+    "vitamins": [
+      { "name": "Vitamin C", "benefit": "Protects liver cells from damage", "dosage": "75–90mg daily" },
+      { "name": "Vitamin E", "benefit": "Antioxidant for liver health", "dosage": "15mg daily" },
+      { "name": "B-complex vitamins", "benefit": "Supports liver metabolism", "dosage": "As prescribed" },
+      { "name": "Zinc", "benefit": "Aids in liver repair", "dosage": "8–11mg daily" }
+    ],
+    "foods": [
+      { "name": "Fruits and vegetables", "nutrients": "Antioxidants, fiber", "benefit": "Supports liver detox" },
+      { "name": "Coconut water", "nutrients": "Electrolytes", "benefit": "Hydration support" },
+      { "name": "Oats", "nutrients": "Beta-glucans", "benefit": "Supports liver recovery" },
+      { "name": "Lean proteins", "nutrients": "Amino acids", "benefit": "Promotes tissue repair" },
+      { "name": "Papaya", "nutrients": "Vitamin A, C", "benefit": "Supports digestion and liver function" }
+    ],
+    "generalAdvice": "Avoid oily food, rest adequately, maintain hydration, and avoid alcohol."
+  },
+
+  {
+    "name": "Hepatitis B",
+    "symptoms": ["Jaundice", "Dark urine", "Fatigue", "Abdominal discomfort", "Loss of appetite"],
+    "vitamins": [
+      { "name": "Vitamin D", "benefit": "Supports liver and immune function", "dosage": "1000 IU daily" },
+      { "name": "Vitamin E", "benefit": "Reduces liver inflammation", "dosage": "15mg daily" },
+      { "name": "Zinc", "benefit": "Aids liver enzyme regulation", "dosage": "8–11mg daily" },
+      { "name": "B-complex vitamins", "benefit": "Enhances liver metabolism", "dosage": "As prescribed" }
+    ],
+    "foods": [
+      { "name": "Green leafy vegetables", "nutrients": "Antioxidants", "benefit": "Protects liver cells" },
+      { "name": "Garlic", "nutrients": "Allicin", "benefit": "Liver detox support" },
+      { "name": "Fish", "nutrients": "Omega-3, protein", "benefit": "Anti-inflammatory effect" },
+      { "name": "Whole grains", "nutrients": "Fiber", "benefit": "Improves metabolism" },
+      { "name": "Fruits", "nutrients": "Vitamin C", "benefit": "Supports recovery" }
+    ],
+    "generalAdvice": "Avoid alcohol, eat balanced diet, maintain hygiene, get vaccinated if not immune."
+  },
+
+  {
+    "name": "Hepatitis C",
+    "symptoms": ["Fatigue", "Joint pain", "Jaundice", "Loss of appetite", "Abdominal pain"],
+    "vitamins": [
+      { "name": "Vitamin D", "benefit": "Improves immune response to virus", "dosage": "1000 IU daily" },
+      { "name": "Vitamin E", "benefit": "Reduces oxidative stress on liver", "dosage": "15mg daily" },
+      { "name": "Zinc", "benefit": "Supports liver enzyme function", "dosage": "8–11mg daily" },
+      { "name": "Vitamin C", "benefit": "Boosts antioxidant capacity", "dosage": "75–90mg daily" }
+    ],
+    "foods": [
+      { "name": "Fruits and vegetables", "nutrients": "Antioxidants", "benefit": "Reduces liver damage" },
+      { "name": "Oats", "nutrients": "Fiber", "benefit": "Improves liver function" },
+      { "name": "Fish", "nutrients": "Omega-3", "benefit": "Lowers inflammation" },
+      { "name": "Garlic", "nutrients": "Sulfur compounds", "benefit": "Detoxifies liver" },
+      { "name": "Green tea", "nutrients": "Catechins", "benefit": "Protects liver cells" }
+    ],
+    "generalAdvice": "Avoid alcohol, follow antiviral therapy strictly, and eat liver-friendly meals."
+  },
+
+  {
+    "name": "Leptospirosis",
+    "symptoms": ["High fever", "Muscle pain", "Red eyes", "Vomiting", "Jaundice"],
+    "vitamins": [
+      { "name": "Vitamin C", "benefit": "Boosts immune response", "dosage": "75–90mg daily" },
+      { "name": "Vitamin B1 (Thiamine)", "benefit": "Supports energy metabolism", "dosage": "1.2mg daily" },
+      { "name": "Zinc", "benefit": "Aids immune function and healing", "dosage": "8–11mg daily" },
+      { "name": "Vitamin D", "benefit": "Improves immunity", "dosage": "1000 IU daily" }
+    ],
+    "foods": [
+      { "name": "Fruits", "nutrients": "Vitamin C", "benefit": "Improves recovery" },
+      { "name": "Soups", "nutrients": "Protein, minerals", "benefit": "Easy to digest" },
+      { "name": "Leafy vegetables", "nutrients": "Iron, folate", "benefit": "Supports blood formation" },
+      { "name": "Coconut water", "nutrients": "Electrolytes", "benefit": "Rehydrates body" },
+      { "name": "Whole grains", "nutrients": "Energy, fiber", "benefit": "Sustains strength" }
+    ],
+    "generalAdvice": "Avoid contact with contaminated water, maintain hygiene, and complete antibiotic treatment."
+  },
+  {
+    "name": "Rabies",
+    "symptoms": ["Fever", "Headache", "Anxiety", "Difficulty swallowing", "Hydrophobia (fear of water)"],
+    "vitamins": [
+      { "name": "Vitamin C", "benefit": "Boosts immune function", "dosage": "500–1000mg daily" },
+      { "name": "Vitamin B-complex", "benefit": "Supports nervous system health", "dosage": "As prescribed" },
+      { "name": "Vitamin D", "benefit": "Enhances immune defense", "dosage": "1000 IU daily" },
+      { "name": "Zinc", "benefit": "Promotes healing and immune response", "dosage": "8–11mg daily" }
+    ],
+    "foods": [
+      { "name": "Fruits and vegetables", "nutrients": "Antioxidants", "benefit": "Improves recovery" },
+      { "name": "Soups and broths", "nutrients": "Protein, fluids", "benefit": "Easy to digest" },
+      { "name": "Eggs", "nutrients": "Protein, B vitamins", "benefit": "Nervous system support" },
+      { "name": "Whole grains", "nutrients": "Fiber, energy", "benefit": "Restores strength" },
+      { "name": "Coconut water", "nutrients": "Electrolytes", "benefit": "Maintains hydration" }
+    ],
+    "generalAdvice": "Immediate post-exposure vaccination and wound cleaning are critical. Avoid delay in treatment."
+  },
+
+  {
+    "name": "Measles",
+    "symptoms": ["High fever", "Cough", "Runny nose", "Rash", "Red eyes"],
+    "vitamins": [
+      { "name": "Vitamin A", "benefit": "Reduces measles complications", "dosage": "200,000 IU (doctor-supervised)" },
+      { "name": "Vitamin C", "benefit": "Boosts immune recovery", "dosage": "75–90mg daily" },
+      { "name": "Zinc", "benefit": "Enhances immunity", "dosage": "8–11mg daily" },
+      { "name": "Vitamin D", "benefit": "Supports immune defense", "dosage": "1000 IU daily" }
+    ],
+    "foods": [
+      { "name": "Citrus fruits", "nutrients": "Vitamin C", "benefit": "Improves recovery" },
+      { "name": "Carrots", "nutrients": "Vitamin A", "benefit": "Supports eye and immune health" },
+      { "name": "Soups", "nutrients": "Protein, fluids", "benefit": "Hydrating and light" },
+      { "name": "Bananas", "nutrients": "Potassium", "benefit": "Easy on the stomach" },
+      { "name": "Leafy greens", "nutrients": "vitamins A & C", "benefit": "Enhances immunity" }
+    ],
+    "generalAdvice": "Get adequate rest, stay hydrated, maintain hygiene, and ensure vaccination for prevention."
+  },
+
+  {
+    "name": "Mumps",
+    "symptoms": ["Swollen salivary glands", "Fever", "Headache", "Muscle aches", "Loss of appetite"],
+    "vitamins": [
+      { "name": "Vitamin C", "benefit": "Reduces inflammation and supports immunity", "dosage": "500mg daily" },
+      { "name": "Vitamin B-complex", "benefit": "Supports metabolism and energy", "dosage": "As prescribed" },
+      { "name": "Zinc", "benefit": "Aids immune response", "dosage": "8–11mg daily" },
+      { "name": "Vitamin D", "benefit": "Boosts immune system", "dosage": "1000 IU daily" }
+    ],
+    "foods": [
+      { "name": "Soups and broths", "nutrients": "Protein, fluids", "benefit": "Soothes sore jaw and aids recovery" },
+      { "name": "Smoothies", "nutrients": "vitamins, antioxidants", "benefit": "Easy to swallow and nutritious" },
+      { "name": "Bananas", "nutrients": "Potassium, carbs", "benefit": "Gentle on digestion" },
+      { "name": "Boiled rice", "nutrients": "Carbohydrates", "benefit": "Provides energy" },
+      { "name": "Coconut water", "nutrients": "Electrolytes", "benefit": "Prevents dehydration" }
+    ],
+    "generalAdvice": "Rest, drink plenty of fluids, eat soft foods, and isolate to prevent spreading."
+  },
+
+  {
+    "name": "Rubella",
+    "symptoms": ["Mild fever", "Rash", "Swollen lymph nodes", "Joint pain", "Fatigue"],
+    "vitamins": [
+      { "name": "Vitamin C", "benefit": "Boosts immune recovery", "dosage": "75–90mg daily" },
+      { "name": "Vitamin A", "benefit": "Protects mucous membranes", "dosage": "700–900mcg daily" },
+      { "name": "Zinc", "benefit": "Supports immune defense", "dosage": "8–11mg daily" },
+      { "name": "Vitamin E", "benefit": "Reduces oxidative stress", "dosage": "15mg daily" }
+    ],
+    "foods": [
+      { "name": "Citrus fruits", "nutrients": "Vitamin C", "benefit": "Supports recovery" },
+      { "name": "Leafy greens", "nutrients": "Vitamin A, folate", "benefit": "Boosts immunity" },
+      { "name": "Soups", "nutrients": "Protein, fluids", "benefit": "Gentle nutrition" },
+      { "name": "Papaya", "nutrients": "Vitamin A, C", "benefit": "Improves recovery" },
+      { "name": "Oats", "nutrients": "Fiber, B vitamins", "benefit": "Supports energy" }
+    ],
+    "generalAdvice": "Ensure rest, stay isolated, maintain hydration, and vaccination (MMR) prevents infection."
+  },
+
+  {
+    "name": "Chickenpox (Varicella)",
+    "symptoms": ["Itchy rash", "Fever", "Tiredness", "Loss of appetite", "Headache"],
+    "vitamins": [
+      { "name": "Vitamin C", "benefit": "Speeds up healing", "dosage": "500–1000mg daily" },
+      { "name": "Vitamin A", "benefit": "Supports skin repair", "dosage": "700–900mcg daily" },
+      { "name": "Zinc", "benefit": "Aids wound healing", "dosage": "8–11mg daily" },
+      { "name": "Vitamin E", "benefit": "Reduces scarring and inflammation", "dosage": "15mg daily" }
+    ],
+    "foods": [
+      { "name": "Soups and broths", "nutrients": "Protein, fluids", "benefit": "Easy to eat during illness" },
+      { "name": "Coconut water", "nutrients": "Electrolytes", "benefit": "Hydrating and soothing" },
+      { "name": "Fruits", "nutrients": "Vitamin C", "benefit": "Improves immune function" },
+      { "name": "Yogurt", "nutrients": "Probiotics, protein", "benefit": "Supports gut health" },
+      { "name": "Oatmeal", "nutrients": "Fiber", "benefit": "Soothes skin when used as a bath or eaten" }
+    ],
+    "generalAdvice": "Avoid scratching, use calamine lotion, rest, and stay isolated until scabs heal."
+  },
+
+  {
+    "name": "Influenza (Seasonal Flu)",
+    "symptoms": ["Fever", "Cough", "Body ache", "Sore throat", "Fatigue"],
+    "vitamins": [
+      { "name": "Vitamin C", "benefit": "Strengthens immune defense", "dosage": "500mg daily" },
+      { "name": "Vitamin D", "benefit": "Reduces infection risk", "dosage": "1000 IU daily" },
+      { "name": "Zinc", "benefit": "Shortens duration of symptoms", "dosage": "8–11mg daily" },
+      { "name": "Vitamin A", "benefit": "Supports respiratory health", "dosage": "700–900mcg daily" }
+    ],
+    "foods": [
+      { "name": "Chicken soup", "nutrients": "Protein, fluids", "benefit": "Eases congestion and provides nutrients" },
+      { "name": "Citrus fruits", "nutrients": "Vitamin C", "benefit": "Boosts recovery" },
+      { "name": "Honey and ginger tea", "nutrients": "Antioxidants", "benefit": "Soothes sore throat" },
+      { "name": "Garlic", "nutrients": "Allicin", "benefit": "Natural antiviral effect" },
+      { "name": "Leafy greens", "nutrients": "vitamins, minerals", "benefit": "Supports immune system" }
+    ],
+    "generalAdvice": "Rest, drink warm fluids, use steam inhalation, and get annual flu vaccination."
+  },
+
+  {
+    "name": "COVID-19",
+    "symptoms": ["Fever", "Cough", "Loss of smell or taste", "Fatigue", "Shortness of breath"],
+    "vitamins": [
+      { "name": "Vitamin D", "benefit": "Supports immune regulation", "dosage": "1000–2000 IU daily" },
+      { "name": "Vitamin C", "benefit": "Enhances antiviral defense", "dosage": "500–1000mg daily" },
+      { "name": "Zinc", "benefit": "Improves immunity and reduces inflammation", "dosage": "8–11mg daily" },
+      { "name": "Vitamin B-complex", "benefit": "Supports energy and nerve health", "dosage": "As prescribed" }
+    ],
+    "foods": [
+      { "name": "Fruits and vegetables", "nutrients": "Antioxidants", "benefit": "Boosts recovery" },
+      { "name": "Turmeric milk", "nutrients": "Curcumin", "benefit": "Anti-inflammatory support" },
+      { "name": "Soups", "nutrients": "Protein, fluids", "benefit": "Hydration and nutrition" },
+      { "name": "Garlic and ginger", "nutrients": "Antiviral compounds", "benefit": "Boost immunity" },
+      { "name": "Coconut water", "nutrients": "Electrolytes", "benefit": "Hydration support" }
+    ],
+    "generalAdvice": "Isolate, rest, stay hydrated, eat nutritious foods, and follow doctor’s guidance for medications."
+  },
+
+  {
+    "name": "Japanese Encephalitis",
+    "symptoms": ["Fever", "Headache", "Neck stiffness", "Seizures", "Confusion"],
+    "vitamins": [
+      { "name": "Vitamin B1 (Thiamine)", "benefit": "Supports brain and nerve function", "dosage": "1.2mg daily" },
+      { "name": "Vitamin C", "benefit": "Boosts immunity", "dosage": "75–90mg daily" },
+      { "name": "Vitamin D", "benefit": "Improves immune response", "dosage": "1000 IU daily" },
+      { "name": "Zinc", "benefit": "Aids brain and immune health", "dosage": "8–11mg daily" }
+    ],
+    "foods": [
+      { "name": "Fruits", "nutrients": "Antioxidants", "benefit": "Protects brain cells" },
+      { "name": "Fish", "nutrients": "Omega-3 fatty acids", "benefit": "Supports brain recovery" },
+      { "name": "Leafy greens", "nutrients": "vitamins and minerals", "benefit": "Enhances recovery" },
+      { "name": "Eggs", "nutrients": "Protein, choline", "benefit": "Supports brain health" },
+      { "name": "Coconut water", "nutrients": "Electrolytes", "benefit": "Prevents dehydration" }
+    ],
+    "generalAdvice": "Seek hospital care immediately, control fever, rest, and ensure vaccination for prevention."
+  },
+
+  {
+    "name": "Swine Flu (H1N1)",
+    "symptoms": ["Fever", "Cough", "Sore throat", "Body pain", "Fatigue"],
+    "vitamins": [
+      { "name": "Vitamin C", "benefit": "Reduces symptom duration", "dosage": "500mg daily" },
+      { "name": "Vitamin D", "benefit": "Enhances immune defense", "dosage": "1000 IU daily" },
+      { "name": "Zinc", "benefit": "Supports antiviral activity", "dosage": "8–11mg daily" },
+      { "name": "Vitamin A", "benefit": "Maintains mucosal immunity", "dosage": "700–900mcg daily" }
+    ],
+    "foods": [
+      { "name": "Soups and broths", "nutrients": "Protein, fluids", "benefit": "Helps breathing and hydration" },
+      { "name": "Citrus fruits", "nutrients": "Vitamin C", "benefit": "Improves immune strength" },
+      { "name": "Honey ginger tea", "nutrients": "Antioxidants", "benefit": "Soothes throat" },
+      { "name": "Leafy greens", "nutrients": "vitamins and minerals", "benefit": "Restores nutrients" },
+      { "name": "Garlic", "nutrients": "Allicin", "benefit": "Natural antiviral agent" }
+    ],
+    "generalAdvice": "Rest, stay isolated, drink warm fluids, follow prescribed antivirals, and get annual flu vaccination."
+  },
+
+  {
+    "name": "Kala-azar (Visceral Leishmaniasis)",
+    "symptoms": ["Prolonged fever", "Weight loss", "Enlarged spleen", "Fatigue", "Darkened skin"],
+    "vitamins": [
+      { "name": "Vitamin A", "benefit": "Supports immune defense", "dosage": "700–900mcg daily" },
+      { "name": "Vitamin C", "benefit": "Improves immunity and healing", "dosage": "75–90mg daily" },
+      { "name": "Zinc", "benefit": "Aids recovery and immune repair", "dosage": "8–11mg daily" },
+      { "name": "Iron", "benefit": "Rebuilds red blood cells", "dosage": "18mg daily" }
+    ],
+    "foods": [
+      { "name": "Leafy greens", "nutrients": "Iron, folate", "benefit": "Restores blood strength" },
+      { "name": "Fruits", "nutrients": "Vitamin C", "benefit": "Boosts immune system" },
+      { "name": "Milk and eggs", "nutrients": "Protein, vitamins", "benefit": "Supports tissue recovery" },
+      { "name": "Nuts", "nutrients": "Healthy fats, zinc", "benefit": "Improves energy and repair" },
+      { "name": "Soups", "nutrients": "Protein, minerals", "benefit": "Easy to digest and nourishing" }
+    ],
+    "generalAdvice": "Seek prompt treatment with antileishmanial drugs, maintain nutrition, and prevent sandfly bites."
+  },
+  {
+    "name": "Filariasis (Elephantiasis)",
+    "symptoms": ["Swelling of legs or genitals", "Fever", "Pain", "Thickened skin", "Fatigue"],
+    "vitamins": [
+      { "name": "Vitamin C", "benefit": "Improves immune response and healing", "dosage": "75–90mg daily" },
+      { "name": "Vitamin E", "benefit": "Reduces inflammation", "dosage": "15mg daily" },
+      { "name": "Zinc", "benefit": "Aids tissue repair", "dosage": "8–11mg daily" },
+      { "name": "Vitamin D", "benefit": "Supports immune balance", "dosage": "1000 IU daily" }
+    ],
+    "foods": [
+      { "name": "Leafy greens", "nutrients": "vitamins, antioxidants", "benefit": "Reduces oxidative stress" },
+      { "name": "Fruits", "nutrients": "Vitamin C", "benefit": "Boosts immunity" },
+      { "name": "Fish", "nutrients": "Omega-3 fatty acids", "benefit": "Reduces inflammation" },
+      { "name": "Garlic", "nutrients": "Sulfur compounds", "benefit": "Antiparasitic support" },
+      { "name": "Soups", "nutrients": "Protein, fluids", "benefit": "Improves nutrition during recovery" }
+    ],
+    "generalAdvice": "Use prescribed antifilarial drugs, maintain hygiene, avoid mosquito bites, and elevate swollen limbs."
+  },
+
+  {
+    "name": "Leprosy (Hansen’s Disease)",
+    "symptoms": ["Numbness", "Skin patches", "Muscle weakness", "Eye problems", "Tingling sensation"],
+    "vitamins": [
+      { "name": "Vitamin B12", "benefit": "Supports nerve regeneration", "dosage": "2.4mcg daily" },
+      { "name": "Vitamin B6", "benefit": "Improves nerve function", "dosage": "1.3–2mg daily" },
+      { "name": "Vitamin C", "benefit": "Enhances skin healing", "dosage": "75–90mg daily" },
+      { "name": "Zinc", "benefit": "Boosts immunity", "dosage": "8–11mg daily" }
+    ],
+    "foods": [
+      { "name": "Eggs", "nutrients": "Protein, B vitamins", "benefit": "Supports nerve repair" },
+      { "name": "Citrus fruits", "nutrients": "Vitamin C", "benefit": "Promotes healing" },
+      { "name": "Leafy greens", "nutrients": "Folate, minerals", "benefit": "Improves recovery" },
+      { "name": "Nuts", "nutrients": "Healthy fats, zinc", "benefit": "Supports nerve function" },
+      { "name": "Whole grains", "nutrients": "B vitamins", "benefit": "Maintains energy" }
+    ],
+    "generalAdvice": "Take multidrug therapy as prescribed, maintain skin care, and report nerve symptoms early."
+  },
+
+  {
+    "name": "Diarrheal Diseases (Rotavirus, E. coli, etc.)",
+    "symptoms": ["Loose stools", "Dehydration", "Abdominal pain", "Vomiting", "Fever"],
+    "vitamins": [
+      { "name": "Zinc", "benefit": "Reduces duration and severity of diarrhea", "dosage": "10–20mg daily" },
+      { "name": "Vitamin A", "benefit": "Protects intestinal lining", "dosage": "700–900mcg daily" },
+      { "name": "Vitamin C", "benefit": "Enhances recovery", "dosage": "75–90mg daily" },
+      { "name": "Electrolytes", "benefit": "Restores fluid balance", "dosage": "As per ORS" }
+    ],
+    "foods": [
+      { "name": "Bananas", "nutrients": "Potassium, carbs", "benefit": "Replenishes electrolytes" },
+      { "name": "Rice porridge", "nutrients": "Carbs", "benefit": "Gentle on stomach" },
+      { "name": "Coconut water", "nutrients": "Electrolytes", "benefit": "Prevents dehydration" },
+      { "name": "Boiled potatoes", "nutrients": "Carbs, minerals", "benefit": "Restores energy" },
+      { "name": "Yogurt", "nutrients": "Probiotics", "benefit": "Restores gut flora" }
+    ],
+    "generalAdvice": "Drink ORS, maintain hydration, eat light foods, and avoid street food or unclean water."
+  },
+
+  {
+    "name": "Whooping Cough (Pertussis)",
+    "symptoms": ["Severe coughing fits", "Whooping sound on inhalation", "Runny nose", "Fever", "Vomiting after cough"],
+    "vitamins": [
+      { "name": "Vitamin C", "benefit": "Strengthens respiratory immunity", "dosage": "500mg daily" },
+      { "name": "Vitamin A", "benefit": "Protects respiratory tract", "dosage": "700–900mcg daily" },
+      { "name": "Zinc", "benefit": "Aids immune defense", "dosage": "8–11mg daily" },
+      { "name": "Vitamin D", "benefit": "Reduces infection severity", "dosage": "1000 IU daily" }
+    ],
+    "foods": [
+      { "name": "Warm soups", "nutrients": "Protein, fluids", "benefit": "Soothes throat" },
+      { "name": "Honey", "nutrients": "Antioxidants", "benefit": "Reduces cough" },
+      { "name": "Ginger tea", "nutrients": "Anti-inflammatory compounds", "benefit": "Eases breathing" },
+      { "name": "Fruits", "nutrients": "Vitamin C", "benefit": "Boosts recovery" },
+      { "name": "Soft foods", "nutrients": "Energy", "benefit": "Easy to eat during illness" }
+    ],
+    "generalAdvice": "Rest, drink warm fluids, avoid cold air, and complete vaccination (DPT booster)."
+  },
+
+  {
+    "name": "Pneumonia",
+    "symptoms": ["Cough with phlegm", "Fever", "Chest pain", "Shortness of breath", "Fatigue"],
+    "vitamins": [
+      { "name": "Vitamin C", "benefit": "Reduces infection duration", "dosage": "500–1000mg daily" },
+      { "name": "Vitamin D", "benefit": "Improves respiratory immunity", "dosage": "1000–2000 IU daily" },
+      { "name": "Zinc", "benefit": "Enhances healing", "dosage": "8–11mg daily" },
+      { "name": "Vitamin A", "benefit": "Supports mucosal health", "dosage": "700–900mcg daily" }
+    ],
+    "foods": [
+      { "name": "Soups and broths", "nutrients": "Protein, fluids", "benefit": "Eases breathing and hydration" },
+      { "name": "Garlic", "nutrients": "Allicin", "benefit": "Natural antibacterial" },
+      { "name": "Ginger tea", "nutrients": "Antioxidants", "benefit": "Reduces inflammation" },
+      { "name": "Leafy greens", "nutrients": "vitamins and minerals", "benefit": "Supports recovery" },
+      { "name": "Citrus fruits", "nutrients": "Vitamin C", "benefit": "Boosts immune strength" }
+    ],
+    "generalAdvice": "Follow antibiotics as prescribed, stay hydrated, rest, and avoid smoking or pollution."
+  },
+
+  {
+    "name": "Hand, Foot and Mouth Disease",
+    "symptoms": ["Fever", "Mouth sores", "Rash on hands and feet", "Sore throat", "Fatigue"],
+    "vitamins": [
+      { "name": "Vitamin C", "benefit": "Speeds recovery", "dosage": "500mg daily" },
+      { "name": "Vitamin A", "benefit": "Improves skin and mucosal healing", "dosage": "700–900mcg daily" },
+      { "name": "Zinc", "benefit": "Enhances wound healing", "dosage": "8–11mg daily" },
+      { "name": "Vitamin E", "benefit": "Reduces inflammation", "dosage": "15mg daily" }
+    ],
+    "foods": [
+      { "name": "Soups", "nutrients": "Protein, fluids", "benefit": "Soothes throat" },
+      { "name": "Smoothies", "nutrients": "vitamins", "benefit": "Easy to consume" },
+      { "name": "Yogurt", "nutrients": "Probiotics", "benefit": "Promotes gut health" },
+      { "name": "Fruits", "nutrients": "Vitamin C", "benefit": "Boosts recovery" },
+      { "name": "Oatmeal", "nutrients": "Fiber", "benefit": "Gentle on stomach" }
+    ],
+    "generalAdvice": "Rest, stay hydrated, maintain hygiene, and avoid acidic or spicy foods."
+  },
+
+  {
+    "name": "Polio (Poliomyelitis)",
+    "symptoms": ["Fever", "Fatigue", "Headache", "Muscle weakness", "Paralysis in severe cases"],
+    "vitamins": [
+      { "name": "Vitamin B12", "benefit": "Supports nerve repair", "dosage": "2.4mcg daily" },
+      { "name": "Vitamin D", "benefit": "Supports muscle and bone health", "dosage": "1000 IU daily" },
+      { "name": "Vitamin C", "benefit": "Enhances immunity", "dosage": "75–90mg daily" },
+      { "name": "Calcium", "benefit": "Strengthens bones and muscles", "dosage": "1000mg daily" }
+    ],
+    "foods": [
+      { "name": "Fish", "nutrients": "Omega-3, protein", "benefit": "Supports nerve function" },
+      { "name": "Eggs", "nutrients": "B12, protein", "benefit": "Muscle repair" },
+      { "name": "Leafy greens", "nutrients": "Calcium, folate", "benefit": "Bone health" },
+      { "name": "Fruits", "nutrients": "Vitamin C", "benefit": "Boosts recovery" },
+      { "name": "Nuts", "nutrients": "Healthy fats", "benefit": "Improves nerve health" }
+    ],
+    "generalAdvice": "Vaccination (OPV/IPV) is key to prevention; physiotherapy helps with muscle recovery."
+  },
+
+  {
+    "name": "Tetanus",
+    "symptoms": ["Jaw stiffness (lockjaw)", "Muscle spasms", "Difficulty swallowing", "Fever", "Restlessness"],
+    "vitamins": [
+      { "name": "Vitamin B-complex", "benefit": "Supports nerve and muscle function", "dosage": "As prescribed" },
+      { "name": "Magnesium", "benefit": "Reduces muscle spasms", "dosage": "310–420mg daily" },
+      { "name": "Vitamin C", "benefit": "Enhances recovery", "dosage": "500mg daily" },
+      { "name": "Zinc", "benefit": "Aids wound healing", "dosage": "8–11mg daily" }
+    ],
+    "foods": [
+      { "name": "Soups", "nutrients": "Protein, fluids", "benefit": "Easy to swallow" },
+      { "name": "Leafy greens", "nutrients": "Magnesium, folate", "benefit": "Muscle relaxation" },
+      { "name": "Fruits", "nutrients": "Vitamin C", "benefit": "Improves healing" },
+      { "name": "Eggs", "nutrients": "Protein", "benefit": "Muscle repair" },
+      { "name": "Milk", "nutrients": "Calcium, vitamin D", "benefit": "Strengthens muscles" }
+    ],
+    "generalAdvice": "Get tetanus toxoid vaccination, maintain wound hygiene, and seek immediate medical care."
+  },
+
+  {
+    "name": "Scabies",
+    "symptoms": ["Severe itching", "Rash", "Blisters", "Skin irritation", "Worse at night"],
+    "vitamins": [
+      { "name": "Vitamin E", "benefit": "Soothes irritated skin", "dosage": "15mg daily" },
+      { "name": "Vitamin C", "benefit": "Enhances healing", "dosage": "75–90mg daily" },
+      { "name": "Zinc", "benefit": "Improves skin repair", "dosage": "8–11mg daily" },
+      { "name": "Vitamin A", "benefit": "Supports skin renewal", "dosage": "700–900mcg daily" }
+    ],
+    "foods": [
+      { "name": "Carrots", "nutrients": "Beta-carotene", "benefit": "Supports skin health" },
+      { "name": "Citrus fruits", "nutrients": "Vitamin C", "benefit": "Promotes healing" },
+      { "name": "Nuts and seeds", "nutrients": "Vitamin E, zinc", "benefit": "Improves skin barrier" },
+      { "name": "Yogurt", "nutrients": "Probiotics", "benefit": "Reduces inflammation" },
+      { "name": "Leafy greens", "nutrients": "Antioxidants", "benefit": "Speeds up recovery" }
+    ],
+    "generalAdvice": "Apply prescribed anti-scabies lotion, wash bedding/clothes, and treat all close contacts."
+  },
+
+  {
+    "name": "Fungal Skin Infections (Ringworm, etc.)",
+    "symptoms": ["Itchy circular rash", "Redness", "Peeling skin", "Cracks between toes", "Scaling"],
+    "vitamins": [
+      { "name": "Vitamin E", "benefit": "Reduces itching and promotes healing", "dosage": "15mg daily" },
+      { "name": "Vitamin C", "benefit": "Boosts skin immunity", "dosage": "75–90mg daily" },
+      { "name": "Zinc", "benefit": "Fights fungal infection", "dosage": "8–11mg daily" },
+      { "name": "Vitamin A", "benefit": "Supports skin renewal", "dosage": "700–900mcg daily" }
+    ],
+    "foods": [
+      { "name": "Garlic", "nutrients": "Allicin", "benefit": "Natural antifungal" },
+      { "name": "Yogurt", "nutrients": "Probiotics", "benefit": "Restores skin balance" },
+      { "name": "Leafy greens", "nutrients": "Antioxidants", "benefit": "Improves immunity" },
+      { "name": "Fruits", "nutrients": "Vitamin C", "benefit": "Speeds healing" },
+      { "name": "Turmeric", "nutrients": "Curcumin", "benefit": "Antifungal and anti-inflammatory" }
+    ],
+    "generalAdvice": "Keep skin clean and dry, use antifungal creams, avoid sharing towels or clothes, and wear loose cotton."
+  },
+  {
+    "name": "Diabetes Mellitus (Type 2)",
+    "symptoms": ["Frequent urination", "Increased thirst", "Fatigue", "Blurred vision", "Slow wound healing"],
+    "vitamins": [
+      { "name": "Vitamin D", "benefit": "Improves insulin sensitivity", "dosage": "1000–2000 IU daily" },
+      { "name": "Vitamin B12", "benefit": "Prevents nerve damage (neuropathy)", "dosage": "2.4mcg daily" },
+      { "name": "Chromium", "benefit": "Helps regulate blood sugar levels", "dosage": "200mcg daily" },
+      { "name": "Magnesium", "benefit": "Supports glucose metabolism", "dosage": "310–420mg daily" }
+    ],
+    "foods": [
+      { "name": "Whole grains", "nutrients": "Fiber, magnesium", "benefit": "Stabilizes blood sugar" },
+      { "name": "Leafy greens", "nutrients": "Antioxidants", "benefit": "Improves insulin function" },
+      { "name": "Nuts", "nutrients": "Healthy fats", "benefit": "Lowers bad cholesterol" },
+      { "name": "Fish", "nutrients": "Omega-3 fatty acids", "benefit": "Supports heart health" },
+      { "name": "Berries", "nutrients": "Antioxidants", "benefit": "Reduces oxidative stress" }
+    ],
+    "generalAdvice": "Monitor blood sugar regularly, exercise, eat low-GI foods, and avoid refined sugars."
+  },
+
+  {
+    "name": "Hypertension (High Blood Pressure)",
+    "symptoms": ["Headache", "Dizziness", "Shortness of breath", "Chest discomfort", "Blurred vision"],
+    "vitamins": [
+      { "name": "Potassium", "benefit": "Balances sodium and lowers BP", "dosage": "3500–4700mg daily" },
+      { "name": "Magnesium", "benefit": "Relaxes blood vessels", "dosage": "310–420mg daily" },
+      { "name": "Vitamin D", "benefit": "Supports cardiovascular health", "dosage": "1000 IU daily" },
+      { "name": "CoQ10", "benefit": "Improves heart energy and BP control", "dosage": "100mg daily" }
+    ],
+    "foods": [
+      { "name": "Bananas", "nutrients": "Potassium", "benefit": "Lowers BP naturally" },
+      { "name": "Leafy greens", "nutrients": "Nitrates", "benefit": "Improves blood flow" },
+      { "name": "Oats", "nutrients": "Fiber", "benefit": "Reduces cholesterol" },
+      { "name": "Beetroot", "nutrients": "Nitrates", "benefit": "Dilates blood vessels" },
+      { "name": "Garlic", "nutrients": "Allicin", "benefit": "Lowers BP" }
+    ],
+    "generalAdvice": "Reduce salt intake, exercise regularly, manage stress, and avoid smoking and alcohol."
+  },
+
+  {
+    "name": "Coronary Artery Disease (Heart Disease)",
+    "symptoms": ["Chest pain (angina)", "Shortness of breath", "Fatigue", "Irregular heartbeat", "Nausea"],
+    "vitamins": [
+      { "name": "CoQ10", "benefit": "Supports heart energy production", "dosage": "100–200mg daily" },
+      { "name": "Omega-3 fatty acids", "benefit": "Reduces inflammation and plaque buildup", "dosage": "1–2g daily" },
+      { "name": "Vitamin D", "benefit": "Improves heart and vessel health", "dosage": "1000 IU daily" },
+      { "name": "Magnesium", "benefit": "Prevents arrhythmias", "dosage": "310–420mg daily" }
+    ],
+    "foods": [
+      { "name": "Fatty fish", "nutrients": "Omega-3", "benefit": "Lowers triglycerides" },
+      { "name": "Oats", "nutrients": "Beta-glucan", "benefit": "Reduces cholesterol" },
+      { "name": "Olive oil", "nutrients": "Monounsaturated fats", "benefit": "Improves HDL levels" },
+      { "name": "Nuts", "nutrients": "Healthy fats, vitamin E", "benefit": "Reduces plaque risk" },
+      { "name": "Fruits and vegetables", "nutrients": "Antioxidants", "benefit": "Protects arteries" }
+    ],
+    "generalAdvice": "Exercise regularly, eat a heart-healthy diet, avoid smoking, and maintain a healthy weight."
+  },
+
+  {
+    "name": "Stroke (Cerebrovascular Accident)",
+    "symptoms": ["Sudden numbness", "Weakness (one side)", "Confusion", "Difficulty speaking", "Vision loss"],
+    "vitamins": [
+      { "name": "Vitamin B12", "benefit": "Reduces homocysteine (stroke risk)", "dosage": "2.4mcg daily" },
+      { "name": "Folate (B9)", "benefit": "Lowers homocysteine", "dosage": "400mcg daily" },
+      { "name": "Vitamin D", "benefit": "Supports brain and vascular health", "dosage": "1000 IU daily" },
+      { "name": "Omega-3 fatty acids", "benefit": "Protects brain cells", "dosage": "1–2g daily" }
+    ],
+    "foods": [
+      { "name": "Leafy greens", "nutrients": "Folate, potassium", "benefit": "Lowers BP" },
+      { "name": "Fish", "nutrients": "Omega-3", "benefit": "Improves circulation" },
+      { "name": "Berries", "nutrients": "Antioxidants", "benefit": "Protects brain cells" },
+      { "name": "Oats", "nutrients": "Fiber", "benefit": "Lowers cholesterol" },
+      { "name": "Nuts", "nutrients": "Healthy fats", "benefit": "Reduces stroke risk" }
+    ],
+    "generalAdvice": "Control BP and sugar, exercise regularly, eat low-salt diet, and avoid smoking."
+  },
+
+  {
+    "name": "Obesity",
+    "symptoms": ["Excess body fat", "Fatigue", "Joint pain", "Breathlessness", "Increased hunger"],
+    "vitamins": [
+      { "name": "Vitamin D", "benefit": "Regulates metabolism", "dosage": "1000 IU daily" },
+      { "name": "B-complex vitamins", "benefit": "Enhance energy metabolism", "dosage": "As prescribed" },
+      { "name": "Chromium", "benefit": "Helps regulate appetite and insulin", "dosage": "200mcg daily" },
+      { "name": "Omega-3 fatty acids", "benefit": "Reduces inflammation", "dosage": "1g daily" }
+    ],
+    "foods": [
+      { "name": "Vegetables", "nutrients": "Fiber, antioxidants", "benefit": "Promotes fullness" },
+      { "name": "Whole grains", "nutrients": "Fiber", "benefit": "Regulates appetite" },
+      { "name": "Lean protein", "nutrients": "Protein", "benefit": "Preserves muscle mass" },
+      { "name": "Nuts", "nutrients": "Healthy fats", "benefit": "Improves satiety" },
+      { "name": "Green tea", "nutrients": "Catechins", "benefit": "Boosts metabolism" }
+    ],
+    "generalAdvice": "Exercise regularly, eat portion-controlled balanced meals, and reduce processed food intake."
+  },
+
+  {
+    "name": "Chronic Obstructive Pulmonary Disease (COPD)",
+    "symptoms": ["Chronic cough", "Shortness of breath", "Wheezing", "Chest tightness", "Fatigue"],
+    "vitamins": [
+      { "name": "Vitamin C", "benefit": "Protects lung tissue", "dosage": "500mg daily" },
+      { "name": "Vitamin D", "benefit": "Reduces inflammation", "dosage": "1000 IU daily" },
+      { "name": "Vitamin E", "benefit": "Improves lung function", "dosage": "15mg daily" },
+      { "name": "Magnesium", "benefit": "Relaxes airways", "dosage": "310–420mg daily" }
+    ],
+    "foods": [
+      { "name": "Citrus fruits", "nutrients": "Vitamin C", "benefit": "Supports immunity" },
+      { "name": "Leafy greens", "nutrients": "Antioxidants", "benefit": "Reduces oxidative damage" },
+      { "name": "Fish", "nutrients": "Omega-3", "benefit": "Improves breathing" },
+      { "name": "Nuts", "nutrients": "Vitamin E", "benefit": "Supports lung repair" },
+      { "name": "Whole grains", "nutrients": "Fiber", "benefit": "Improves energy metabolism" }
+    ],
+    "generalAdvice": "Quit smoking, avoid air pollution, maintain healthy weight, and follow pulmonary rehab."
+  },
+
+  {
+    "name": "Asthma",
+    "symptoms": ["Wheezing", "Coughing", "Shortness of breath", "Chest tightness", "Difficulty breathing"],
+    "vitamins": [
+      { "name": "Vitamin D", "benefit": "Reduces inflammation", "dosage": "1000 IU daily" },
+      { "name": "Vitamin C", "benefit": "Supports lung immunity", "dosage": "500mg daily" },
+      { "name": "Magnesium", "benefit": "Relaxes airway muscles", "dosage": "310–420mg daily" },
+      { "name": "Omega-3 fatty acids", "benefit": "Decreases airway inflammation", "dosage": "1g daily" }
+    ],
+    "foods": [
+      { "name": "Leafy greens", "nutrients": "Antioxidants", "benefit": "Reduces inflammation" },
+      { "name": "Fish", "nutrients": "Omega-3", "benefit": "Supports lung health" },
+      { "name": "Fruits", "nutrients": "Vitamin C", "benefit": "Improves immunity" },
+      { "name": "Garlic", "nutrients": "Allicin", "benefit": "Anti-inflammatory effects" },
+      { "name": "Ginger tea", "nutrients": "Antioxidants", "benefit": "Eases breathing" }
+    ],
+    "generalAdvice": "Avoid allergens, use inhaler as prescribed, exercise moderately, and eat anti-inflammatory foods."
+  },
+
+  {
+    "name": "Cancer (various types — oral, breast, cervical, lung, etc.)",
+    "symptoms": ["Unexplained weight loss", "Fatigue", "Persistent pain", "Lumps or sores", "Changes in appetite"],
+    "vitamins": [
+      { "name": "Vitamin D", "benefit": "May help slow cancer progression", "dosage": "1000–2000 IU daily" },
+      { "name": "Vitamin C", "benefit": "Supports immune defense", "dosage": "500mg daily" },
+      { "name": "Vitamin E", "benefit": "Antioxidant protection", "dosage": "15mg daily" },
+      { "name": "Folate (B9)", "benefit": "Supports DNA repair", "dosage": "400mcg daily" }
+    ],
+    "foods": [
+      { "name": "Broccoli", "nutrients": "Sulforaphane", "benefit": "Anticancer compound" },
+      { "name": "Turmeric", "nutrients": "Curcumin", "benefit": "Reduces tumor inflammation" },
+      { "name": "Berries", "nutrients": "Antioxidants", "benefit": "Prevents cell damage" },
+      { "name": "Green tea", "nutrients": "Catechins", "benefit": "Protects against free radicals" },
+      { "name": "Leafy greens", "nutrients": "Folate, fiber", "benefit": "Detoxifies the body" }
+    ],
+    "generalAdvice": "Follow oncology treatment plan, maintain nutrition, avoid smoking, and include antioxidant-rich foods."
+  },
+
+  {
+    "name": "Chronic Kidney Disease",
+    "symptoms": ["Fatigue", "Swelling (legs, feet)", "Decreased urine output", "Nausea", "Loss of appetite"],
+    "vitamins": [
+      { "name": "Vitamin D", "benefit": "Supports bone and kidney health", "dosage": "1000 IU daily" },
+      { "name": "Vitamin B-complex", "benefit": "Improves energy metabolism", "dosage": "As prescribed" },
+      { "name": "Iron", "benefit": "Prevents anemia", "dosage": "18mg daily" },
+      { "name": "Vitamin C", "benefit": "Aids immunity (small doses)", "dosage": "60–90mg daily" }
+    ],
+    "foods": [
+      { "name": "Cabbage", "nutrients": "Low potassium, vitamin C", "benefit": "Kidney-friendly" },
+      { "name": "Cauliflower", "nutrients": "Fiber, vitamin C", "benefit": "Supports detox" },
+      { "name": "Fish", "nutrients": "Omega-3", "benefit": "Reduces inflammation" },
+      { "name": "Apples", "nutrients": "Fiber", "benefit": "Improves digestion" },
+      { "name": "Egg whites", "nutrients": "High-quality protein", "benefit": "Low phosphorus" }
+    ],
+    "generalAdvice": "Control BP and diabetes, limit salt and protein, avoid processed foods, and follow renal diet."
+  },
+
+  {
+    "name": "Osteoarthritis",
+    "symptoms": ["Joint pain", "Stiffness", "Swelling", "Reduced mobility", "Tenderness"],
+    "vitamins": [
+      { "name": "Vitamin D", "benefit": "Supports bone and joint health", "dosage": "1000 IU daily" },
+      { "name": "Calcium", "benefit": "Maintains bone strength", "dosage": "1000–1200mg daily" },
+      { "name": "Vitamin C", "benefit": "Promotes collagen synthesis", "dosage": "75–90mg daily" },
+      { "name": "Omega-3 fatty acids", "benefit": "Reduces joint inflammation", "dosage": "1–2g daily" }
+    ],
+    "foods": [
+      { "name": "Fatty fish", "nutrients": "Omega-3", "benefit": "Reduces joint pain" },
+      { "name": "Leafy greens", "nutrients": "Calcium, vitamin K", "benefit": "Improves bone health" },
+      { "name": "Citrus fruits", "nutrients": "Vitamin C", "benefit": "Supports cartilage repair" },
+      { "name": "Nuts", "nutrients": "Healthy fats", "benefit": "Reduce inflammation" },
+      { "name": "Milk and yogurt", "nutrients": "Calcium, vitamin D", "benefit": "Strengthens bones" }
+    ],
+    "generalAdvice": "Maintain healthy weight, exercise regularly, use joint-friendly movements, and eat anti-inflammatory foods."
+  },
+  {
+    "name": "Rheumatoid Arthritis",
+    "symptoms": ["Joint pain", "Morning stiffness", "Swelling in joints", "Fatigue", "Warmth in joints"],
+    "vitamins": [
+      { "name": "Vitamin D", "benefit": "Reduces inflammation and strengthens bones", "dosage": "1000 IU daily" },
+      { "name": "Omega-3 fatty acids", "benefit": "Lowers joint inflammation", "dosage": "1–2g daily" },
+      { "name": "Vitamin C", "benefit": "Supports collagen and reduces oxidative stress", "dosage": "75–90mg daily" },
+      { "name": "Calcium", "benefit": "Supports bone health", "dosage": "1000–1200mg daily" }
+    ],
+    "foods": [
+      { "name": "Fatty fish", "nutrients": "Omega-3", "benefit": "Reduces inflammation" },
+      { "name": "Turmeric", "nutrients": "Curcumin", "benefit": "Natural anti-inflammatory" },
+      { "name": "Leafy greens", "nutrients": "Calcium, antioxidants", "benefit": "Supports bone and joint health" },
+      { "name": "Berries", "nutrients": "Vitamin C", "benefit": "Reduces joint oxidative stress" },
+      { "name": "Nuts and seeds", "nutrients": "Healthy fats", "benefit": "Supports joint lubrication" }
+    ],
+    "generalAdvice": "Maintain healthy weight, exercise gently, manage stress, and follow anti-inflammatory diet."
+  },
+
+  {
+    "name": "Thyroid Disorders (Hypo/Hyperthyroidism)",
+    "symptoms": ["Fatigue", "Weight change", "Hair loss", "Mood swings", "Irregular heartbeat (in hyperthyroidism)"],
+    "vitamins": [
+      { "name": "Iodine", "benefit": "Essential for thyroid hormone production", "dosage": "150mcg daily" },
+      { "name": "Selenium", "benefit": "Regulates thyroid enzyme activity", "dosage": "55mcg daily" },
+      { "name": "Zinc", "benefit": "Supports thyroid function", "dosage": "8–11mg daily" },
+      { "name": "Vitamin D", "benefit": "Improves thyroid hormone balance", "dosage": "1000 IU daily" }
+    ],
+    "foods": [
+      { "name": "Iodized salt", "nutrients": "Iodine", "benefit": "Prevents goiter" },
+      { "name": "Brazil nuts", "nutrients": "Selenium", "benefit": "Supports thyroid hormone conversion" },
+      { "name": "Fish", "nutrients": "Iodine, selenium", "benefit": "Balances thyroid levels" },
+      { "name": "Eggs", "nutrients": "Protein, B vitamins", "benefit": "Supports metabolism" },
+      { "name": "Leafy greens", "nutrients": "Antioxidants", "benefit": "Reduces oxidative stress on thyroid" }
+    ],
+    "generalAdvice": "Avoid excessive soy, manage stress, monitor TSH levels, and take medications as prescribed."
+  },
+
+  {
+    "name": "Anemia (especially Iron Deficiency Anemia)",
+    "symptoms": ["Fatigue", "Weakness", "Pale skin", "Shortness of breath", "Dizziness"],
+    "vitamins": [
+      { "name": "Iron", "benefit": "Essential for red blood cell production", "dosage": "18–27mg daily" },
+      { "name": "Vitamin B12", "benefit": "Supports red blood cell formation", "dosage": "2.4mcg daily" },
+      { "name": "Folate (B9)", "benefit": "Necessary for cell division", "dosage": "400–800mcg daily" },
+      { "name": "Vitamin C", "benefit": "Enhances iron absorption", "dosage": "75–90mg daily" }
+    ],
+    "foods": [
+      { "name": "Red meat", "nutrients": "Iron, B12", "benefit": "High bioavailable iron" },
+      { "name": "Spinach", "nutrients": "Iron, folate", "benefit": "Plant-based iron source" },
+      { "name": "Lentils", "nutrients": "Iron, protein", "benefit": "Rich in nutrients" },
+      { "name": "Eggs", "nutrients": "Iron, B12", "benefit": "Complete protein" },
+      { "name": "Fortified cereals", "nutrients": "Iron, B vitamins", "benefit": "Easy to consume" }
+    ],
+    "generalAdvice": "Consult doctor for blood tests, avoid tea/coffee with meals, and supplement as prescribed."
+  },
+
+  {
+    "name": "Peptic Ulcer Disease",
+    "symptoms": ["Burning stomach pain", "Bloating", "Nausea", "Heartburn", "Loss of appetite"],
+    "vitamins": [
+      { "name": "Vitamin C", "benefit": "Promotes healing of stomach lining", "dosage": "500mg daily" },
+      { "name": "Zinc", "benefit": "Aids tissue repair", "dosage": "8–11mg daily" },
+      { "name": "Vitamin A", "benefit": "Maintains mucosal integrity", "dosage": "700–900mcg daily" },
+      { "name": "Probiotics", "benefit": "Restore gut flora balance", "dosage": "As recommended" }
+    ],
+    "foods": [
+      { "name": "Bananas", "nutrients": "Potassium", "benefit": "Soothes stomach" },
+      { "name": "Yogurt", "nutrients": "Probiotics", "benefit": "Protects stomach lining" },
+      { "name": "Oats", "nutrients": "Fiber", "benefit": "Reduces acid irritation" },
+      { "name": "Leafy greens", "nutrients": "Antioxidants", "benefit": "Aids healing" },
+      { "name": "Cabbage juice", "nutrients": "Vitamin U", "benefit": "Promotes ulcer healing" }
+    ],
+    "generalAdvice": "Avoid NSAIDs, alcohol, spicy food, and smoking; eat small, frequent meals."
+  },
+
+  {
+    "name": "Depression",
+    "symptoms": ["Persistent sadness", "Loss of interest", "Fatigue", "Sleep problems", "Changes in appetite"],
+    "vitamins": [
+      { "name": "Vitamin D", "benefit": "Improves mood and serotonin levels", "dosage": "1000–2000 IU daily" },
+      { "name": "B-complex (B6, B12, Folate)", "benefit": "Supports neurotransmitter production", "dosage": "As prescribed" },
+      { "name": "Omega-3 fatty acids", "benefit": "Enhances brain health", "dosage": "1g daily" },
+      { "name": "Magnesium", "benefit": "Calms nervous system", "dosage": "310–420mg daily" }
+    ],
+    "foods": [
+      { "name": "Fatty fish", "nutrients": "Omega-3", "benefit": "Improves brain function" },
+      { "name": "Leafy greens", "nutrients": "Folate", "benefit": "Supports serotonin synthesis" },
+      { "name": "Nuts and seeds", "nutrients": "Magnesium", "benefit": "Reduces anxiety" },
+      { "name": "Whole grains", "nutrients": "B vitamins", "benefit": "Boosts energy and mood" },
+      { "name": "Dark chocolate", "nutrients": "Flavonoids", "benefit": "Enhances serotonin" }
+    ],
+    "generalAdvice": "Seek counseling, exercise regularly, get sunlight, and maintain a balanced diet."
+  },
+
+  {
+    "name": "Anxiety Disorders",
+    "symptoms": ["Restlessness", "Rapid heartbeat", "Sweating", "Irritability", "Sleep disturbance"],
+    "vitamins": [
+      { "name": "Magnesium", "benefit": "Reduces nervous tension", "dosage": "310–420mg daily" },
+      { "name": "Vitamin B6", "benefit": "Supports neurotransmitter balance", "dosage": "1.3–1.7mg daily" },
+      { "name": "Vitamin D", "benefit": "Improves mood regulation", "dosage": "1000 IU daily" },
+      { "name": "Omega-3 fatty acids", "benefit": "Reduces anxiety symptoms", "dosage": "1g daily" }
+    ],
+    "foods": [
+      { "name": "Chamomile tea", "nutrients": "Flavonoids", "benefit": "Promotes relaxation" },
+      { "name": "Nuts", "nutrients": "Magnesium", "benefit": "Calms nervous system" },
+      { "name": "Leafy greens", "nutrients": "Folate", "benefit": "Regulates mood" },
+      { "name": "Yogurt", "nutrients": "Probiotics", "benefit": "Improves gut-brain connection" },
+      { "name": "Whole grains", "nutrients": "B vitamins", "benefit": "Supports serotonin" }
+    ],
+    "generalAdvice": "Practice deep breathing, meditation, avoid caffeine, and get adequate sleep."
+  },
+
+  {
+    "name": "Alzheimer’s Disease",
+    "symptoms": ["Memory loss", "Confusion", "Difficulty speaking", "Disorientation", "Mood changes"],
+    "vitamins": [
+      { "name": "Vitamin E", "benefit": "Protects brain cells from oxidative damage", "dosage": "15mg daily" },
+      { "name": "Omega-3 fatty acids", "benefit": "Supports brain function", "dosage": "1–2g daily" },
+      { "name": "Vitamin B12", "benefit": "Supports nerve health", "dosage": "2.4mcg daily" },
+      { "name": "Vitamin D", "benefit": "Improves cognitive performance", "dosage": "1000 IU daily" }
+    ],
+    "foods": [
+      { "name": "Fish", "nutrients": "Omega-3", "benefit": "Supports brain structure" },
+      { "name": "Blueberries", "nutrients": "Antioxidants", "benefit": "Protects neurons" },
+      { "name": "Leafy greens", "nutrients": "Folate, vitamin K", "benefit": "Supports cognition" },
+      { "name": "Nuts", "nutrients": "Vitamin E", "benefit": "Improves memory" },
+      { "name": "Olive oil", "nutrients": "Healthy fats", "benefit": "Supports brain health" }
+    ],
+    "generalAdvice": "Stay mentally active, eat a Mediterranean diet, exercise, and maintain social engagement."
+  },
+
+  {
+    "name": "Parkinson’s Disease",
+    "symptoms": ["Tremors", "Muscle stiffness", "Slow movement", "Impaired balance", "Speech changes"],
+    "vitamins": [
+      { "name": "Vitamin D", "benefit": "Supports brain and motor function", "dosage": "1000 IU daily" },
+      { "name": "CoQ10", "benefit": "Improves cellular energy in neurons", "dosage": "100–200mg daily" },
+      { "name": "Vitamin B6", "benefit": "Supports dopamine production", "dosage": "1.3–1.7mg daily" },
+      { "name": "Omega-3 fatty acids", "benefit": "Reduces neuroinflammation", "dosage": "1–2g daily" }
+    ],
+    "foods": [
+      { "name": "Fish", "nutrients": "Omega-3", "benefit": "Supports brain cells" },
+      { "name": "Bananas", "nutrients": "Vitamin B6", "benefit": "Aids dopamine synthesis" },
+      { "name": "Nuts", "nutrients": "Healthy fats", "benefit": "Reduces inflammation" },
+      { "name": "Leafy greens", "nutrients": "Antioxidants", "benefit": "Protects neurons" },
+      { "name": "Legumes", "nutrients": "Protein, B vitamins", "benefit": "Supports muscle strength" }
+    ],
+    "generalAdvice": "Follow neurologist’s treatment, exercise, eat fiber-rich foods, and manage stress."
+  },
+
+  {
+    "name": "Cataract",
+    "symptoms": ["Cloudy vision", "Glare sensitivity", "Blurry vision", "Color fading", "Double vision"],
+    "vitamins": [
+      { "name": "Vitamin C", "benefit": "Protects lens from oxidation", "dosage": "500mg daily" },
+      { "name": "Vitamin E", "benefit": "Prevents lens protein damage", "dosage": "15mg daily" },
+      { "name": "Vitamin A", "benefit": "Maintains eye health", "dosage": "700–900mcg daily" },
+      { "name": "Lutein & Zeaxanthin", "benefit": "Protects retina and lens", "dosage": "6–10mg daily" }
+    ],
+    "foods": [
+      { "name": "Carrots", "nutrients": "Vitamin A, beta-carotene", "benefit": "Supports vision" },
+      { "name": "Spinach", "nutrients": "Lutein, antioxidants", "benefit": "Protects eye lens" },
+      { "name": "Citrus fruits", "nutrients": "Vitamin C", "benefit": "Reduces risk of cataracts" },
+      { "name": "Nuts", "nutrients": "Vitamin E", "benefit": "Protects against oxidative stress" },
+      { "name": "Egg yolks", "nutrients": "Lutein", "benefit": "Improves eye clarity" }
+    ],
+    "generalAdvice": "Wear UV-protective glasses, eat antioxidant-rich foods, and avoid smoking."
+  },
+
+  {
+    "name": "Migraine",
+    "symptoms": ["Severe headache", "Nausea", "Sensitivity to light", "Vision disturbances", "Fatigue"],
+    "vitamins": [
+      { "name": "Magnesium", "benefit": "Reduces migraine frequency", "dosage": "400mg daily" },
+      { "name": "Vitamin B2 (Riboflavin)", "benefit": "Supports energy metabolism in brain cells", "dosage": "400mg daily" },
+      { "name": "CoQ10", "benefit": "Improves brain energy", "dosage": "100mg daily" },
+      { "name": "Vitamin D", "benefit": "Reduces inflammation", "dosage": "1000 IU daily" }
+    ],
+    "foods": [
+      { "name": "Leafy greens", "nutrients": "Magnesium", "benefit": "Reduces headache triggers" },
+      { "name": "Nuts", "nutrients": "Healthy fats, magnesium", "benefit": "Supports nerve health" },
+      { "name": "Fish", "nutrients": "Omega-3", "benefit": "Decreases inflammation" },
+      { "name": "Watermelon", "nutrients": "Hydration", "benefit": "Prevents dehydration-triggered migraines" },
+      { "name": "Whole grains", "nutrients": "B vitamins", "benefit": "Improves brain energy" }
+    ],
+    "generalAdvice": "Stay hydrated, manage stress, avoid trigger foods, and maintain regular sleep schedule."
+  },
+  {
+    "name": "Gout",
+    "symptoms": ["Joint pain (especially in the big toe)", "Swelling", "Redness", "Warmth in joints", "Limited movement"],
+    "vitamins": [
+      { "name": "Vitamin C", "benefit": "Helps reduce uric acid levels", "dosage": "500mg daily" },
+      { "name": "Omega-3 fatty acids", "benefit": "Reduces joint inflammation", "dosage": "1–2g daily" },
+      { "name": "Vitamin E", "benefit": "Protects joints from oxidative damage", "dosage": "15mg daily" },
+      { "name": "Magnesium", "benefit": "May reduce uric acid crystallization", "dosage": "310–420mg daily" }
+    ],
+    "foods": [
+      { "name": "Cherries", "nutrients": "Anthocyanins", "benefit": "Reduces gout flare frequency" },
+      { "name": "Low-fat dairy", "nutrients": "Protein, calcium", "benefit": "Lowers uric acid" },
+      { "name": "Leafy greens", "nutrients": "Folate, antioxidants", "benefit": "Reduces inflammation" },
+      { "name": "Water", "nutrients": "Hydration", "benefit": "Flushes uric acid" },
+      { "name": "Whole grains", "nutrients": "Fiber", "benefit": "Improves metabolism" }
+    ],
+    "generalAdvice": "Avoid red meat, alcohol, and high-purine foods; stay hydrated and maintain healthy weight."
+  },
+
+  {
+    "name": "Psoriasis",
+    "symptoms": ["Red, scaly skin patches", "Itching", "Cracked skin", "Burning sensation", "Thickened nails"],
+    "vitamins": [
+      { "name": "Vitamin D", "benefit": "Slows skin cell growth", "dosage": "1000–2000 IU daily" },
+      { "name": "Omega-3 fatty acids", "benefit": "Reduces skin inflammation", "dosage": "1–2g daily" },
+      { "name": "Vitamin E", "benefit": "Improves skin texture", "dosage": "15mg daily" },
+      { "name": "Zinc", "benefit": "Aids skin repair", "dosage": "8–11mg daily" }
+    ],
+    "foods": [
+      { "name": "Fatty fish", "nutrients": "Omega-3", "benefit": "Reduces inflammation" },
+      { "name": "Fruits and vegetables", "nutrients": "Antioxidants", "benefit": "Protects skin cells" },
+      { "name": "Nuts and seeds", "nutrients": "Vitamin E", "benefit": "Improves skin elasticity" },
+      { "name": "Olive oil", "nutrients": "Healthy fats", "benefit": "Moisturizes skin" },
+      { "name": "Turmeric", "nutrients": "Curcumin", "benefit": "Anti-inflammatory effects" }
+    ],
+    "generalAdvice": "Moisturize skin, avoid triggers (stress, cold), and get moderate sunlight exposure."
+  },
+
+  {
+    "name": "Vitiligo",
+    "symptoms": ["Loss of skin pigment", "White patches on skin", "Premature graying of hair", "Color loss in mouth/eyes"],
+    "vitamins": [
+      { "name": "Vitamin B12", "benefit": "Supports melanin production", "dosage": "2.4mcg daily" },
+      { "name": "Folic acid (B9)", "benefit": "Aids repigmentation", "dosage": "400mcg daily" },
+      { "name": "Vitamin C", "benefit": "Protects skin cells from oxidation", "dosage": "75–90mg daily" },
+      { "name": "Copper", "benefit": "Essential for melanin synthesis", "dosage": "900mcg daily" }
+    ],
+    "foods": [
+      { "name": "Carrots", "nutrients": "Beta-carotene", "benefit": "Protects skin" },
+      { "name": "Leafy greens", "nutrients": "Folate, antioxidants", "benefit": "Promotes pigment health" },
+      { "name": "Fish", "nutrients": "Omega-3, zinc", "benefit": "Supports skin regeneration" },
+      { "name": "Citrus fruits", "nutrients": "Vitamin C", "benefit": "Improves skin immunity" },
+      { "name": "Nuts and seeds", "nutrients": "Copper, vitamin E", "benefit": "Promotes pigment balance" }
+    ],
+    "generalAdvice": "Avoid skin injury and stress, protect skin from sunburn, and follow prescribed treatment."
+  },
+
+  {
+    "name": "Eczema (Dermatitis)",
+    "symptoms": ["Itchy skin", "Dryness", "Red rash", "Cracked skin", "Blisters (in severe cases)"],
+    "vitamins": [
+      { "name": "Vitamin D", "benefit": "Improves skin barrier function", "dosage": "1000 IU daily" },
+      { "name": "Omega-3 fatty acids", "benefit": "Reduces inflammation", "dosage": "1g daily" },
+      { "name": "Vitamin E", "benefit": "Hydrates and repairs skin", "dosage": "15mg daily" },
+      { "name": "Zinc", "benefit": "Promotes skin healing", "dosage": "8–11mg daily" }
+    ],
+    "foods": [
+      { "name": "Fatty fish", "nutrients": "Omega-3", "benefit": "Reduces flare-ups" },
+      { "name": "Avocados", "nutrients": "Vitamin E", "benefit": "Moisturizes skin" },
+      { "name": "Leafy greens", "nutrients": "Antioxidants", "benefit": "Protects skin cells" },
+      { "name": "Yogurt", "nutrients": "Probiotics", "benefit": "Improves skin microbiome" },
+      { "name": "Turmeric", "nutrients": "Curcumin", "benefit": "Soothes inflammation" }
+    ],
+    "generalAdvice": "Avoid harsh soaps, stay moisturized, wear breathable clothes, and manage stress."
+  },
+
+  {
+    "name": "Glaucoma",
+    "symptoms": ["Blurred vision", "Eye pain", "Halos around lights", "Headache", "Loss of peripheral vision"],
+    "vitamins": [
+      { "name": "Vitamin C", "benefit": "Reduces intraocular pressure", "dosage": "500mg daily" },
+      { "name": "Vitamin E", "benefit": "Protects optic nerve cells", "dosage": "15mg daily" },
+      { "name": "Omega-3 fatty acids", "benefit": "Improves eye circulation", "dosage": "1g daily" },
+      { "name": "Zinc", "benefit": "Supports retinal health", "dosage": "8–11mg daily" }
+    ],
+    "foods": [
+      { "name": "Carrots", "nutrients": "Beta-carotene", "benefit": "Supports eye vision" },
+      { "name": "Spinach", "nutrients": "Lutein, zeaxanthin", "benefit": "Protects retina" },
+      { "name": "Fish", "nutrients": "Omega-3", "benefit": "Supports optic nerve" },
+      { "name": "Citrus fruits", "nutrients": "Vitamin C", "benefit": "Improves eye blood flow" },
+      { "name": "Nuts", "nutrients": "Vitamin E", "benefit": "Prevents oxidative damage" }
+    ],
+    "generalAdvice": "Regular eye check-ups, avoid eye strain, use prescribed drops, and control blood pressure."
+  },
+
+  {
+    "name": "Conjunctivitis (Eye Flu)",
+    "symptoms": ["Red eyes", "Watery discharge", "Itching", "Swelling of eyelids", "Light sensitivity"],
+    "vitamins": [
+      { "name": "Vitamin A", "benefit": "Maintains mucous membranes in eyes", "dosage": "700–900mcg daily" },
+      { "name": "Vitamin C", "benefit": "Boosts immunity", "dosage": "75–90mg daily" },
+      { "name": "Zinc", "benefit": "Enhances healing", "dosage": "8–11mg daily" },
+      { "name": "Vitamin E", "benefit": "Protects eye tissue", "dosage": "15mg daily" }
+    ],
+    "foods": [
+      { "name": "Carrots", "nutrients": "Vitamin A", "benefit": "Supports eye repair" },
+      { "name": "Citrus fruits", "nutrients": "Vitamin C", "benefit": "Strengthens immunity" },
+      { "name": "Green leafy vegetables", "nutrients": "Beta-carotene", "benefit": "Reduces inflammation" },
+      { "name": "Eggs", "nutrients": "Lutein, zinc", "benefit": "Improves eye healing" },
+      { "name": "Water", "nutrients": "Hydration", "benefit": "Flushes infection" }
+    ],
+    "generalAdvice": "Avoid touching eyes, maintain hygiene, wash hands frequently, and avoid contact lenses."
+  },
+
+  {
+    "name": "Sinusitis",
+    "symptoms": ["Facial pain", "Nasal congestion", "Headache", "Fever", "Postnasal drip"],
+    "vitamins": [
+      { "name": "Vitamin C", "benefit": "Boosts immune defense", "dosage": "500mg daily" },
+      { "name": "Vitamin D", "benefit": "Reduces inflammation", "dosage": "1000 IU daily" },
+      { "name": "Zinc", "benefit": "Speeds up recovery from infections", "dosage": "8–11mg daily" },
+      { "name": "Vitamin A", "benefit": "Maintains mucosal immunity", "dosage": "700–900mcg daily" }
+    ],
+    "foods": [
+      { "name": "Garlic", "nutrients": "Allicin", "benefit": "Antibacterial properties" },
+      { "name": "Ginger tea", "nutrients": "Antioxidants", "benefit": "Clears sinuses" },
+      { "name": "Citrus fruits", "nutrients": "Vitamin C", "benefit": "Strengthens immune system" },
+      { "name": "Hot soups", "nutrients": "Fluids, minerals", "benefit": "Relieves congestion" },
+      { "name": "Turmeric milk", "nutrients": "Curcumin", "benefit": "Anti-inflammatory effects" }
+    ],
+    "generalAdvice": "Stay hydrated, inhale steam, avoid allergens, and use nasal saline rinses."
+  },
+
+  {
+    "name": "Tonsillitis",
+    "symptoms": ["Sore throat", "Difficulty swallowing", "Fever", "Swollen tonsils", "Bad breath"],
+    "vitamins": [
+      { "name": "Vitamin C", "benefit": "Boosts immunity and healing", "dosage": "500mg daily" },
+      { "name": "Zinc", "benefit": "Fights infection", "dosage": "8–11mg daily" },
+      { "name": "Vitamin D", "benefit": "Supports immune system", "dosage": "1000 IU daily" },
+      { "name": "Vitamin A", "benefit": "Maintains throat mucosa", "dosage": "700–900mcg daily" }
+    ],
+    "foods": [
+      { "name": "Warm soups", "nutrients": "Fluids, minerals", "benefit": "Soothes throat" },
+      { "name": "Honey", "nutrients": "Antibacterial", "benefit": "Reduces throat irritation" },
+      { "name": "Ginger tea", "nutrients": "Antioxidants", "benefit": "Reduces swelling" },
+      { "name": "Citrus fruits", "nutrients": "Vitamin C", "benefit": "Boosts immunity" },
+      { "name": "Bananas", "nutrients": "Potassium", "benefit": "Easy to swallow and nutritious" }
+    ],
+    "generalAdvice": "Gargle with warm salt water, rest, drink fluids, and avoid cold foods or drinks."
+  },
+
+  {
+    "name": "Urinary Tract Infection (UTI)",
+    "symptoms": ["Burning urination", "Frequent urge to urinate", "Cloudy urine", "Abdominal pain", "Fever"],
+    "vitamins": [
+      { "name": "Vitamin C", "benefit": "Acidifies urine to prevent bacteria growth", "dosage": "500mg daily" },
+      { "name": "Cranberry extract", "benefit": "Prevents bacterial adhesion", "dosage": "As recommended" },
+      { "name": "Zinc", "benefit": "Boosts immune defense", "dosage": "8–11mg daily" },
+      { "name": "Probiotics", "benefit": "Maintains urinary flora balance", "dosage": "As prescribed" }
+    ],
+    "foods": [
+      { "name": "Cranberries", "nutrients": "Proanthocyanidins", "benefit": "Prevents infection" },
+      { "name": "Yogurt", "nutrients": "Probiotics", "benefit": "Supports urinary health" },
+      { "name": "Water", "nutrients": "Hydration", "benefit": "Flushes out bacteria" },
+      { "name": "Garlic", "nutrients": "Allicin", "benefit": "Antimicrobial properties" },
+      { "name": "Citrus fruits", "nutrients": "Vitamin C", "benefit": "Boosts immunity" }
+    ],
+    "generalAdvice": "Drink plenty of water, maintain hygiene, urinate regularly, and avoid tight clothing."
+  },
+
+  {
+    "name": "Gallstones",
+    "symptoms": ["Abdominal pain (upper right)", "Nausea", "Vomiting", "Indigestion", "Jaundice (in severe cases)"],
+    "vitamins": [
+      { "name": "Vitamin C", "benefit": "Prevents cholesterol crystallization", "dosage": "500mg daily" },
+      { "name": "Vitamin E", "benefit": "Reduces oxidative stress in liver", "dosage": "15mg daily" },
+      { "name": "Lecithin", "benefit": "Aids bile flow", "dosage": "As recommended" },
+      { "name": "Magnesium", "benefit": "Improves bile secretion", "dosage": "310–420mg daily" }
+    ],
+    "foods": [
+      { "name": "Leafy greens", "nutrients": "Magnesium, antioxidants", "benefit": "Supports bile health" },
+      { "name": "Fruits", "nutrients": "Fiber", "benefit": "Improves digestion" },
+      { "name": "Olive oil", "nutrients": "Healthy fats", "benefit": "Stimulates bile flow" },
+      { "name": "Whole grains", "nutrients": "Fiber", "benefit": "Prevents cholesterol buildup" },
+      { "name": "Lemon water", "nutrients": "Vitamin C", "benefit": "Aids liver detox" }
+    ],
+    "generalAdvice": "Avoid fatty foods, eat smaller meals, maintain healthy weight, and stay hydrated."
+  },
+  {
+    "name": "Kidney Stones",
+    "symptoms": ["Severe back or abdominal pain", "Blood in urine", "Nausea", "Vomiting", "Frequent urination"],
+    "vitamins": [
+      { "name": "Vitamin B6", "benefit": "Reduces oxalate formation", "dosage": "50–100mg daily" },
+      { "name": "Magnesium", "benefit": "Prevents stone formation", "dosage": "310–420mg daily" },
+      { "name": "Vitamin C", "benefit": "Supports kidney health", "dosage": "75–90mg daily" },
+      { "name": "Potassium", "benefit": "Reduces stone recurrence", "dosage": "3500–4700mg daily" }
+    ],
+    "foods": [
+      { "name": "Water", "nutrients": "Hydration", "benefit": "Dilutes urine and prevents stones" },
+      { "name": "Citrus fruits", "nutrients": "Citrate", "benefit": "Prevents calcium stones" },
+      { "name": "Leafy greens", "nutrients": "Magnesium", "benefit": "Reduces oxalate absorption" },
+      { "name": "Whole grains", "nutrients": "Fiber", "benefit": "Improves digestion" },
+      { "name": "Low-sodium foods", "nutrients": "Electrolytes", "benefit": "Reduces stone risk" }
+    ],
+    "generalAdvice": "Drink plenty of water, limit high-oxalate foods, reduce salt intake, and follow doctor’s guidance."
+  },
+
+  {
+    "name": "Irritable Bowel Syndrome (IBS)",
+    "symptoms": ["Abdominal pain", "Bloating", "Diarrhea or constipation", "Gas", "Mucus in stool"],
+    "vitamins": [
+      { "name": "Vitamin D", "benefit": "Supports gut immunity", "dosage": "1000 IU daily" },
+      { "name": "Vitamin B12", "benefit": "Prevents fatigue associated with IBS", "dosage": "2.4mcg daily" },
+      { "name": "Magnesium", "benefit": "Relieves constipation", "dosage": "310–420mg daily" },
+      { "name": "Probiotics", "benefit": "Restores gut flora", "dosage": "As recommended" }
+    ],
+    "foods": [
+      { "name": "Oats", "nutrients": "Fiber", "benefit": "Regulates bowel movements" },
+      { "name": "Yogurt", "nutrients": "Probiotics", "benefit": "Improves gut health" },
+      { "name": "Bananas", "nutrients": "Potassium, fiber", "benefit": "Reduces cramping" },
+      { "name": "Ginger", "nutrients": "Antioxidants", "benefit": "Soothes digestive tract" },
+      { "name": "Leafy greens", "nutrients": "Fiber", "benefit": "Improves bowel regularity" }
+    ],
+    "generalAdvice": "Identify triggers, eat small frequent meals, manage stress, and stay hydrated."
+  },
+
+  {
+    "name": "Gastroesophageal Reflux Disease (GERD / Acidity)",
+    "symptoms": ["Heartburn", "Regurgitation", "Chest discomfort", "Sore throat", "Difficulty swallowing"],
+    "vitamins": [
+      { "name": "Vitamin D", "benefit": "Reduces inflammation", "dosage": "1000 IU daily" },
+      { "name": "Magnesium", "benefit": "Relaxes esophageal muscles", "dosage": "310–420mg daily" },
+      { "name": "Vitamin B12", "benefit": "Prevents deficiency from acid suppression", "dosage": "2.4mcg daily" },
+      { "name": "Calcium", "benefit": "Supports bone health", "dosage": "1000–1200mg daily" }
+    ],
+    "foods": [
+      { "name": "Oatmeal", "nutrients": "Fiber", "benefit": "Reduces reflux" },
+      { "name": "Ginger", "nutrients": "Antioxidants", "benefit": "Soothes stomach" },
+      { "name": "Bananas", "nutrients": "Potassium", "benefit": "Neutralizes acid" },
+      { "name": "Leafy greens", "nutrients": "Fiber", "benefit": "Supports digestion" },
+      { "name": "Lean proteins", "nutrients": "Protein", "benefit": "Reduces acid production" }
+    ],
+    "generalAdvice": "Avoid spicy/fatty foods, eat smaller meals, don’t lie down after eating, and maintain healthy weight."
+  },
+
+  {
+    "name": "Fatty Liver Disease (Non-Alcoholic Fatty Liver)",
+    "symptoms": ["Fatigue", "Abdominal discomfort", "Weight loss", "Nausea", "Enlarged liver"],
+    "vitamins": [
+      { "name": "Vitamin E", "benefit": "Reduces liver inflammation", "dosage": "15–25mg daily" },
+      { "name": "Vitamin D", "benefit": "Supports liver function", "dosage": "1000 IU daily" },
+      { "name": "Omega-3 fatty acids", "benefit": "Reduces fat accumulation", "dosage": "1–2g daily" },
+      { "name": "B-complex vitamins", "benefit": "Improves metabolism", "dosage": "As prescribed" }
+    ],
+    "foods": [
+      { "name": "Leafy greens", "nutrients": "Antioxidants", "benefit": "Protects liver cells" },
+      { "name": "Fatty fish", "nutrients": "Omega-3", "benefit": "Reduces liver fat" },
+      { "name": "Fruits", "nutrients": "Fiber", "benefit": "Supports detoxification" },
+      { "name": "Olive oil", "nutrients": "Healthy fats", "benefit": "Improves liver health" },
+      { "name": "Whole grains", "nutrients": "Fiber", "benefit": "Reduces fat accumulation" }
+    ],
+    "generalAdvice": "Exercise regularly, maintain healthy weight, limit sugar and fats, and avoid alcohol."
+  },
+
+  {
+    "name": "Cirrhosis of Liver",
+    "symptoms": ["Fatigue", "Jaundice", "Swelling in legs/abdomen", "Easy bruising", "Nausea"],
+    "vitamins": [
+      { "name": "Vitamin D", "benefit": "Supports bone and liver health", "dosage": "1000 IU daily" },
+      { "name": "Vitamin K", "benefit": "Supports blood clotting", "dosage": "90–120mcg daily" },
+      { "name": "Vitamin C", "benefit": "Supports immunity", "dosage": "75–90mg daily" },
+      { "name": "B-complex vitamins", "benefit": "Improves energy metabolism", "dosage": "As prescribed" }
+    ],
+    "foods": [
+      { "name": "Leafy greens", "nutrients": "Vitamin K", "benefit": "Supports clotting" },
+      { "name": "Fruits", "nutrients": "Antioxidants", "benefit": "Protects liver cells" },
+      { "name": "Lean proteins", "nutrients": "Protein", "benefit": "Maintains muscle mass" },
+      { "name": "Whole grains", "nutrients": "Fiber", "benefit": "Reduces toxin buildup" },
+      { "name": "Olive oil", "nutrients": "Healthy fats", "benefit": "Supports liver function" }
+    ],
+    "generalAdvice": "Avoid alcohol, limit salt, follow prescribed medications, and maintain healthy diet."
+  },
+
+  {
+    "name": "Anorexia and Malnutrition",
+    "symptoms": ["Extreme weight loss", "Fatigue", "Weakness", "Hair loss", "Poor immunity"],
+    "vitamins": [
+      { "name": "Vitamin D", "benefit": "Supports bone and immune health", "dosage": "1000 IU daily" },
+      { "name": "Vitamin B12", "benefit": "Supports energy and nerve health", "dosage": "2.4mcg daily" },
+      { "name": "Iron", "benefit": "Prevents anemia", "dosage": "18mg daily" },
+      { "name": "Multivitamins", "benefit": "Prevents deficiencies", "dosage": "As prescribed" }
+    ],
+    "foods": [
+      { "name": "Eggs", "nutrients": "Protein, B vitamins", "benefit": "Supports weight gain" },
+      { "name": "Nut butters", "nutrients": "Healthy fats", "benefit": "High-calorie nutrition" },
+      { "name": "Milk and yogurt", "nutrients": "Protein, calcium", "benefit": "Improves strength" },
+      { "name": "Fruits and vegetables", "nutrients": "vitamins", "benefit": "Boosts immunity" },
+      { "name": "Whole grains", "nutrients": "Fiber, energy", "benefit": "Maintains nutrition" }
+    ],
+    "generalAdvice": "Eat small frequent meals, monitor nutrition, seek psychological support, and consider supplements."
+  },
+
+  {
+    "name": "Sickle Cell Anemia",
+    "symptoms": ["Fatigue", "Painful episodes", "Swelling in hands/feet", "Frequent infections", "Delayed growth"],
+    "vitamins": [
+      { "name": "Folate (B9)", "benefit": "Supports red blood cell production", "dosage": "400–800mcg daily" },
+      { "name": "Vitamin B12", "benefit": "Red blood cell formation", "dosage": "2.4mcg daily" },
+      { "name": "Vitamin D", "benefit": "Supports bone health", "dosage": "1000 IU daily" },
+      { "name": "Vitamin C", "benefit": "Boosts immunity", "dosage": "75–90mg daily" }
+    ],
+    "foods": [
+      { "name": "Leafy greens", "nutrients": "Folate", "benefit": "Supports RBC production" },
+      { "name": "Red meat", "nutrients": "Iron, B12", "benefit": "Prevents anemia" },
+      { "name": "Citrus fruits", "nutrients": "Vitamin C", "benefit": "Enhances iron absorption" },
+      { "name": "Eggs", "nutrients": "Protein, B12", "benefit": "Supports growth" },
+      { "name": "Legumes", "nutrients": "Iron, folate", "benefit": "Improves hemoglobin" }
+    ],
+    "generalAdvice": "Stay hydrated, avoid extreme temperatures, get vaccinations, and follow medical therapy."
+  },
+
+  {
+    "name": "Thalassemia",
+    "symptoms": ["Fatigue", "Pale skin", "Slow growth", "Bone deformities", "Enlarged spleen"],
+    "vitamins": [
+      { "name": "Folate (B9)", "benefit": "Supports red blood cell production", "dosage": "400–800mcg daily" },
+      { "name": "Vitamin B12", "benefit": "Prevents anemia", "dosage": "2.4mcg daily" },
+      { "name": "Vitamin D", "benefit": "Supports bone health", "dosage": "1000 IU daily" },
+      { "name": "Vitamin C", "benefit": "Enhances iron absorption (if needed)", "dosage": "75–90mg daily" }
+    ],
+    "foods": [
+      { "name": "Leafy greens", "nutrients": "Folate", "benefit": "Supports RBC production" },
+      { "name": "Eggs", "nutrients": "B12, protein", "benefit": "Prevents deficiency" },
+      { "name": "Legumes", "nutrients": "Iron, folate", "benefit": "Supports hemoglobin" },
+      { "name": "Citrus fruits", "nutrients": "Vitamin C", "benefit": "Enhances nutrient absorption" },
+      { "name": "Fish", "nutrients": "B12, protein", "benefit": "Supports growth" }
+    ],
+    "generalAdvice": "Regular blood transfusions if prescribed, monitor iron levels, and maintain nutritious diet."
+  },
+
+  {
+    "name": "Epilepsy",
+    "symptoms": ["Seizures", "Temporary confusion", "Loss of consciousness", "Staring spells", "Muscle spasms"],
+    "vitamins": [
+      { "name": "Vitamin B6", "benefit": "Supports neurotransmitter function", "dosage": "1.3–2mg daily" },
+      { "name": "Vitamin D", "benefit": "Supports nerve health", "dosage": "1000 IU daily" },
+      { "name": "Magnesium", "benefit": "May reduce seizure frequency", "dosage": "310–420mg daily" },
+      { "name": "Omega-3 fatty acids", "benefit": "Neuroprotective effects", "dosage": "1g daily" }
+    ],
+    "foods": [
+      { "name": "Leafy greens", "nutrients": "Magnesium", "benefit": "Supports nerve stability" },
+      { "name": "Fatty fish", "nutrients": "Omega-3", "benefit": "Neuroprotective" },
+      { "name": "Whole grains", "nutrients": "B vitamins", "benefit": "Supports brain energy" },
+      { "name": "Nuts", "nutrients": "Magnesium", "benefit": "Calms nervous system" },
+      { "name": "Eggs", "nutrients": "B vitamins", "benefit": "Supports neurotransmitter production" }
+    ],
+    "generalAdvice": "Take anti-seizure medication as prescribed, avoid triggers, get adequate sleep, and maintain balanced diet."
+  },
+
+  {
+    "name": "Autism Spectrum Disorder",
+    "symptoms": ["Difficulty in social interaction", "Repetitive behaviors", "Speech delays", "Sensory sensitivity", "Limited interests"],
+    "vitamins": [
+      { "name": "Vitamin D", "benefit": "Supports brain development", "dosage": "1000 IU daily" },
+      { "name": "Omega-3 fatty acids", "benefit": "Supports cognitive function", "dosage": "1–2g daily" },
+      { "name": "Vitamin B12", "benefit": "Neurodevelopment support", "dosage": "2.4mcg daily" },
+      { "name": "Folate (B9)", "benefit": "Supports neurological development", "dosage": "400–800mcg daily" }
+    ],
+    "foods": [
+      { "name": "Fatty fish", "nutrients": "Omega-3", "benefit": "Supports brain function" },
+      { "name": "Leafy greens", "nutrients": "Folate", "benefit": "Neurodevelopment support" },
+      { "name": "Eggs", "nutrients": "B12, protein", "benefit": "Supports nerve growth" },
+      { "name": "Nuts and seeds", "nutrients": "Healthy fats", "benefit": "Cognitive benefits" },
+      { "name": "Fruits and vegetables", "nutrients": "vitamins", "benefit": "Overall health support" }
+    ],
+    "generalAdvice": "Early intervention therapies, structured environment, balanced diet, and follow-up with specialists."
+  }
+
+]

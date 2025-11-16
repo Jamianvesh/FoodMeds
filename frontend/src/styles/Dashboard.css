@@ -1,0 +1,120 @@
+.dashboard-container {
+  display: flex;
+  flex-direction: column;
+  background: #f8fcfa;
+  min-height: 100vh;
+  overflow: hidden;
+}
+.navbar-logo {
+  height: 37px;
+}
+
+/* =============================
+   Collapsed Sidebar (Fixed)
+============================= */
+.collapsed-sidebar {
+  position: fixed;
+  top: 64px;
+  left: 0;
+  bottom: 0;
+  width: 70px;
+  background: #eaf6f1;
+  border-right: 1px solid rgba(0, 0, 0, 0.05);
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding-top: 15px;
+  z-index: 1100;
+}
+
+.sidebar-icons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.sidebar-icon-btn {
+  color: #388e3c !important;
+  transition: all 0.3s ease;
+}
+.sidebar-icon-btn:hover {
+  background-color: rgba(76, 175, 125, 0.1) !important;
+}
+.sidebar-icon-btn.active {
+  background-color: rgba(76, 175, 125, 0.25) !important;
+  border-radius: 10px;
+}
+
+/* =============================
+   Overlay Expanded Sidebar
+============================= */
+.overlay-sidebar {
+  position: fixed;
+  top: 64px;
+  left: 0;
+  bottom: 0;
+  width: 250px;
+  background: rgba(234, 246, 241, 0.96);
+  box-shadow: 3px 0 15px rgba(0, 0, 0, 0.1);
+  z-index: 1200;
+  backdrop-filter: blur(8px);
+  display: flex;
+  flex-direction: column;
+}
+
+.drawer-content {
+  height: 100%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* =============================
+   Body and Footer
+============================= */
+.dashboard-fixed-body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  padding-top: 80px;
+  margin-left: 70px; /* body starts after collapsed sidebar */
+  transition: all 0.3s ease;
+}
+
+.dashboard-content-wrapper {
+  flex: 1;
+  padding: 30px 40px;
+  z-index: 1;
+}
+
+/* Footer full width */
+footer.footer {
+  width: 100%;
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
+  background: #eaf6f1;
+  text-align: center;
+  padding: 20px 0;
+  margin: 0;
+}
+
+.sidebar-greeting {
+  background: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(6px);
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
+  padding: 12px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.sidebar-greeting p {
+  margin: 0;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .dashboard-content-wrapper {
+    padding: 20px;
+  }
+}

@@ -1,0 +1,68 @@
+.disease-cure-container {
+  padding: 0px 0px 20px 20px !important;
+  text-align: center;
+}
+
+/* Suggestion box */
+.dc-suggestion-box {
+  margin-bottom: 20px;
+  border-radius: 16px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.05);
+}
+
+/* ---- CARD UI (both cards) ---- */
+.dc-card {
+  padding: 16px;
+  border-radius: 22px;
+  background: rgba(236, 249, 255, 0.1) !important; /* navbar color */
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+  border: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+/* ---- LIST ITEM ---- */
+.dc-list-item {
+  border-radius: 12px;
+  padding: 10px 15px;
+  transition: 0.25s ease;
+  border-left: 6px solid transparent;
+  margin-bottom: 5px ;
+}
+
+.dc-list-item:hover {
+  background: rgba(76, 175, 125, 0.12);
+}
+
+/* ---- SELECTED ---- */
+.dc-selected {
+  border-left: 6px solid #FFD600 !important; /* yellow */
+  background: rgba(255, 214, 0, 0.2);
+  box-shadow: 0 0 14px rgba(76, 175, 125, 0.45);
+}
+
+/* ---- Name ---- */
+.dc-disease-name {
+  font-weight: 700;
+  color: #143D33;
+}
+
+/* ---- Bracket text beside name ---- */
+.dc-symptom {
+  font-weight: 600;
+  color: #444;
+}
+
+/* ---- Select message ---- */
+.dc-select-msg {
+  background: #FFF8E1;
+  border-radius: 14px;
+  padding: 16px;
+  text-align: center;
+  font-weight: 600;
+  color: #7A5200;
+  margin-top: 20px;
+}
+.dc-hint-msg {
+  font-weight: 550 !important;
+  color: #788fdb !important;
+  font-size: 1rem !important;
+}

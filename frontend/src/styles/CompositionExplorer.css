@@ -1,0 +1,127 @@
+/* Container */
+.ce-container {
+  padding: 0px 20px 40px 20px;
+}
+
+/* Pills row */
+.ce-pill-container {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 28px;
+}
+
+.ce-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 14px;
+  border-radius: 999px;
+  border: 1px solid rgba(76, 175, 125, 0.18);
+  background: #fff;
+  color: #2b5c56;
+  font-weight: 700;
+  cursor: pointer;
+  transition: transform 0.15s ease, background 0.15s ease, box-shadow 0.15s ease;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  font-size: 14px;
+}
+
+.ce-pill-icon {
+  font-size: 18px;
+  transform: translateY(-1px);
+}
+
+.ce-pill:hover {
+  transform: translateY(-3px);
+}
+
+.ce-pill.active {
+  background: linear-gradient(135deg, #4caf7d, #56a1cf);
+  color: white;
+  box-shadow: 0 6px 22px rgba(76, 175, 125, 0.18);
+  border-color: transparent;
+}
+
+/* Grid */
+.ce-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 22px;
+  align-items: start;
+}
+
+/* Empty states */
+.ce-empty {
+  grid-column: 1/-1;
+  text-align: center;
+  color: #6b7280;
+  padding: 36px 12px;
+}
+
+/* Card */
+.ce-card {
+  cursor: pointer;
+  border-radius: 14px !important;
+  overflow: hidden;
+  box-shadow: 0 8px 30px rgba(2,40,20,0.04) !important;
+  transition: transform 0.18s ease, box-shadow 0.18s ease;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background: #fff;
+}
+
+.ce-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 18px 50px rgba(2,40,20,0.08) !important;
+}
+
+/* Card image */
+.ce-card-img {
+  height: 160px;
+  object-fit: cover;
+}
+
+/* Card content */
+.ce-card-content {
+  padding: 12px 14px 18px 14px;
+  margin-top: auto;
+}
+
+/* card title */
+.ce-card-title {
+  font-size: 1rem;
+}
+
+/* Modal image */
+.ce-modal-img {
+  width: 100%;
+  height: 220px;
+  object-fit: contain;
+  border-radius: 10px;
+  box-shadow: 0 8px 30px rgba(2,40,20,0.06);
+}
+
+/* Chips */
+.ce-chip-blue {
+  background: rgba(86, 161, 207, 0.12) !important;
+  color: #1565c0 !important;
+  border: 1px solid rgba(86, 161, 207, 0.25) !important;
+  font-weight: 700;
+}
+
+.ce-chip-green {
+  background: rgba(76, 175, 125, 0.12) !important;
+  color: #2e7d32 !important;
+  border: 1px solid rgba(76, 175, 125, 0.25) !important;
+  font-weight: 700;
+}
+
+/* Responsive adjustments */
+@media (max-width: 780px) {
+  .ce-modal-img {
+    height: 180px;
+  }
+}

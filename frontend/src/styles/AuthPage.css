@@ -1,0 +1,424 @@
+/* ===============================
+   🌿 Auth Page Container
+   =============================== */
+.auth-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 80px 20px;
+  font-family: "Poppins", sans-serif;
+  overflow: hidden;
+}
+
+/* ===============================
+   🟩 Main Card
+   =============================== */
+.auth-card {
+  position: relative;
+  width: 100%;
+  max-width: 900px;
+  height: 650px;
+  display: flex;
+  border-radius: 26px;
+  overflow: hidden;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.12);
+  transition: transform 0.8s ease;
+  transform-style: preserve-3d;
+  background: #fff;
+}
+
+/* Slide Animation Between Sides */
+.auth-card.flipped .auth-form-side {
+  transform: translateX(100%);
+}
+.auth-card.flipped .auth-panel-side {
+  transform: translateX(-100%);
+}
+
+/* ===============================
+   🧾 Form Section
+   =============================== */
+.auth-form-side {
+  position: relative;
+  width: 50%;
+  padding: 40px 50px;
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  z-index: 2;
+  transition: transform 0.8s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.navbar-logo {
+  height: 70px;
+}
+
+.auth-header {
+  text-align: center;
+  margin-bottom: 25px;
+
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 12px;
+}
+
+.brand-name {
+  font-weight: 700;
+  background: linear-gradient(135deg, #4caf7d, #56a1cf);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* ===============================
+   ✍️ Form Styling
+   =============================== */
+.auth-form {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  animation: fadeIn 0.4s ease;
+}
+
+.form-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 24px;
+  gap: 16px;
+}
+
+/* Submit Button */
+.submit-btn {
+  background: linear-gradient(135deg, #4caf7d, #56a1cf) !important;
+  color: #ffffff !important;
+  padding: 10px 32px !important;
+  border-radius: 50px !important;
+  font-weight: 600 !important;
+  text-transform: none !important;
+  box-shadow: 0 4px 15px rgba(76, 175, 125, 0.3) !important;
+  transition: all 0.3s ease !important;
+}
+.submit-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 22px rgba(76, 175, 125, 0.45) !important;
+}
+
+/* Forgot Password Link */
+.forgot-link {
+  color: #4caf7d !important;
+  font-size: 14px;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+.forgot-link:hover {
+  color: #56a1cf !important;
+}
+
+/* ===============================
+   📏 Metrics (Age, Height, Weight)
+   =============================== */
+.metrics-row {
+  display: flex;
+  gap: 12px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+.metric-field {
+  flex: 1;
+}
+
+/* ===============================
+   🚻 Sex Toggle Buttons
+   =============================== */
+.sex-toggle {
+  margin: 16px 0 20px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.sex-buttons {
+  display: flex;
+  justify-content: flex-start;
+  gap: 12px;
+}
+
+.sex-btn {
+  border-radius: 25px !important;
+  border: 1.5px solid #4caf7d !important;
+  color: #4caf7d !important;
+  text-transform: none !important;
+  font-weight: 600 !important;
+  transition: all 0.3s ease !important;
+  padding: 6px 20px !important;
+}
+
+.sex-btn.Mui-selected {
+  background: linear-gradient(135deg, #4caf7d, #56a1cf) !important;
+  color: #fff !important;
+  border-color: transparent !important;
+  box-shadow: 0 4px 15px rgba(76, 175, 125, 0.3) !important;
+}
+
+/* ===============================
+   🔑 Forgot Password Section
+   =============================== */
+.forgot-section {
+  margin-top: 25px;
+  padding-top: 20px;
+  border-top: 1px solid #e0e0e0;
+}
+
+.forgot-title {
+  color: #555;
+  margin-bottom: 12px;
+  font-weight: 600;
+}
+
+.forgot-form {
+  display: flex;
+  gap: 10px;
+}
+.forgot-input {
+  flex: 1;
+}
+
+.forgot-btn {
+  border-color: #4caf7d !important;
+  color: #4caf7d !important;
+  text-transform: none !important;
+  font-weight: 600 !important;
+  transition: all 0.3s ease !important;
+  border-radius: 30px !important;
+}
+.forgot-btn:hover {
+  background-color: rgba(76, 175, 125, 0.1) !important;
+  border-color: #56a1cf !important;
+  color: #56a1cf !important;
+}
+
+/* ===============================
+   💫 Panel Side (Right)
+   =============================== */
+.auth-panel-side {
+  position: relative;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  transition: all 0.8s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  z-index: 1;
+  color: #fff;
+}
+
+.panel-content {
+  text-align: center;
+  color: #ffffff;
+  padding: 20px 10px;
+}
+
+.panel-title {
+  font-weight: 700;
+  margin-bottom: 16px;
+  color: #ffffff;
+}
+
+.panel-text {
+  margin-bottom: 32px;
+  opacity: 0.95;
+  line-height: 1.6;
+  color: #ffffff;
+}
+
+.panel-btn {
+  background: #ffffff !important;
+  color: #4caf7d !important;
+  padding: 10px 32px !important;
+  border-radius: 50px !important;
+  font-weight: 600 !important;
+  text-transform: none !important;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2) !important;
+  transition: all 0.3s ease !important;
+}
+.panel-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25) !important;
+}
+
+/* ===============================
+   📱 Mobile Styles
+   =============================== */
+.mobile-toggle {
+  display: none;
+  margin-top: 20px;
+  text-align: center;
+}
+.mobile-toggle-btn {
+  border-color: #4caf7d !important;
+  color: #4caf7d !important;
+  text-transform: none !important;
+  font-weight: 600 !important;
+  padding: 10px 32px !important;
+  border-radius: 50px !important;
+}
+
+@media (max-width: 768px) {
+  .auth-container {
+    padding: 40px 16px;
+  }
+
+  .auth-card {
+    flex-direction: column;
+    height: auto;
+    max-width: 450px;
+  }
+
+  .auth-card.flipped .auth-form-side,
+  .auth-card.flipped .auth-panel-side {
+    transform: none;
+  }
+
+  .auth-form-side,
+  .auth-panel-side {
+    width: 100%;
+    transition: none;
+  }
+
+  .auth-panel-side {
+    display: none;
+  }
+
+  .mobile-toggle {
+    display: block;
+  }
+
+  .form-actions {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .submit-btn {
+    width: 100%;
+  }
+
+  .metrics-row {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .forgot-form {
+    flex-direction: column;
+  }
+
+  .forgot-btn {
+    width: 100%;
+  }
+}
+
+/* ===============================
+   🎨 MUI TextField Enhancements
+   =============================== */
+.MuiTextField-root {
+  margin: 8px 0;
+}
+
+.MuiOutlinedInput-root {
+  border-radius: 12px !important;
+}
+
+.MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {
+  border-color: #4caf7d !important;
+}
+
+.MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+  border-color: #56a1cf !important;
+}
+
+.MuiInputLabel-root.Mui-focused {
+  color: #56a1cf !important;
+}
+
+/* ===============================
+   💬 Inline HelperText (Error + Info)
+   =============================== */
+.MuiFormHelperText-root {
+  font-size: 13px !important;
+  margin-left: 5px !important;
+  margin-top: 4px !important;
+  transition: all 0.3s ease;
+}
+
+.MuiFormHelperText-root.Mui-error {
+  color: #e57373 !important;
+  animation: fadeError 0.3s ease;
+}
+
+@keyframes fadeError {
+  from {
+    opacity: 0;
+    transform: translateY(-4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Smooth fade out of disappearing helper text */
+.fade-out {
+  animation: fadeOut 0.4s ease forwards;
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateY(-3px);
+  }
+}
+
+/* ===============================
+   🔧 Input Fixes
+   =============================== */
+input::-ms-reveal,
+input::-ms-clear,
+input::-webkit-textfield-decoration-container {
+  display: none !important;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type="number"] {
+  appearance: textfield;
+  -webkit-appearance: textfield;
+  -moz-appearance: textfield;
+}
+
+.metric-field input {
+  padding-right: 10px !important;
+}
+
+/* ===============================
+   ✨ Animations
+   =============================== */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
