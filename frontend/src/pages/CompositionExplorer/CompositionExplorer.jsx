@@ -21,7 +21,7 @@ const categories = [
 const apiBase = import.meta.env.VITE_API_URL || "";
 
 export default function CompositionExplorer() {
-  const [activeCat, setActiveCat] = useState("leafy");
+  const [activeCat, setActiveCat] = useState("grain");
   const [foods, setFoods] = useState([]);
   const [modalFood, setModalFood] = useState(null);
   const [loading, setLoading] = useState(false);

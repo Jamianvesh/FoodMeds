@@ -7,6 +7,7 @@ import authRoutes from "./routes/authRoutes.js";
 import foodRoutes from "./routes/foodRoutes.js";
 import profileRoutes from "./routes/profileRoutes.js";
 import dashboardRoutes from "./routes/dashboardRoutes.js";
+import geminiChatRoutes from "./routes/geminiChatRoutes.js";
 
 dotenv.config();
 connectDB();
@@ -21,6 +22,7 @@ app.use("/api/auth", authRoutes);
 app.use("/api", foodRoutes);
 app.use("/api/user", profileRoutes);
 app.use("/api/dashboard", dashboardRoutes);
+app.use("/api/chat", geminiChatRoutes);
 
 app.use("/images", express.static("public/images"));
 

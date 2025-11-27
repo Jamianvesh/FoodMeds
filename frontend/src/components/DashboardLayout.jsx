@@ -38,6 +38,7 @@ import Footer from "../components/Footer";
 import logo from "../assets/logo.png";
 import { motion, AnimatePresence } from "framer-motion";
 import "../styles/Dashboard.css";
+import ChatFab from "../components/ChatFab";
 
 // Slide animation for popup
 const Transition = React.forwardRef(function Transition(props, ref) {
@@ -362,7 +363,7 @@ export default function DashboardLayout({ children, onSelect, active }) {
           </Button>
         </DialogActions>
       </Dialog>
-
+      {active !== "chatbot" && <ChatFab onSelect={onSelect} />}
     </Box>
   );
 }

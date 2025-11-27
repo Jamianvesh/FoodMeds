@@ -1,5 +1,5 @@
 // src/pages/CompositionExplorer/FoodModal.jsx
-import React, { forwardRef } from "react";
+import React from "react";
 import {
   Dialog,
   DialogContent,
@@ -12,14 +12,17 @@ import {
   Stack,
   IconButton,
   Slide,
+  Fade,
 } from "@mui/material";
 import CloseIcon from "@mui/icons-material/Close";
 import "../../styles/CompositionExplorer.css";
+import Lottie from "lottie-react";
+import DNA from "../../assets/animation/DNA.json"; // adjust path if needed
 
 /**
  * Slide transition for the dialog
  */
-const Transition = forwardRef(function Transition(props, ref) {
+const Transition = React.forwardRef(function Transition(props, ref) {
   return <Slide direction="up" ref={ref} {...props} />;
 });
 
@@ -97,6 +100,16 @@ export default function FoodModal({ food, onClose }) {
   const nutrition = extractNutrition(food.description || "");
   const imageUrl = `${import.meta.env.VITE_API_URL || ""}${food.imageUrl}`;
 
+  // showInfo controls when the nutrition content is shown (after 1s)
+  const [showInfo, setShowInfo] = React.useState(false);
+
+  React.useEffect(() => {
+    // reset and start timer whenever modal opens or food changes
+    setShowInfo(false);
+    const t = setTimeout(() => setShowInfo(true), 1000); // 1 second
+    return () => clearTimeout(t);
+  }, [food]);
+
   return (
     <Dialog
       open
@@ -129,7 +142,7 @@ export default function FoodModal({ food, onClose }) {
             src={imageUrl}
             alt={food.name}
             className="ce-modal-img"
-            style={{ objectFit: "contain" }}   // FIX CROPPING
+            style={{ objectFit: "contain" }}
           />
         </Box>
 
@@ -142,155 +155,170 @@ export default function FoodModal({ food, onClose }) {
           * Nutritional composition shown is for 100 g of the food item.
         </Typography>
 
-        {/* MACRONUTRIENTS */}
-        <Box sx={{ mt: 1 }}>
-          <Typography variant="subtitle1" fontWeight={700} sx={{ mb: 1 }}>
-            Macronutrients
-          </Typography>
-
-          <Stack spacing={1}>
-            {/* PROTEIN */}
-            <Box>
-              <Box sx={{ display: "flex", justifyContent: "space-between", mb: 0.7 }}>
-                <Typography variant="body2" fontWeight={700}>
-                  {macroLabel("Protein", nutrition.protein)}
-                </Typography>
-                {nutrition.protein != null && (
-                  <Typography variant="body2" color="text.secondary">
-                    {nutrition.protein * 4} kcal
-                  </Typography>
-                )}
-              </Box>
-
-              {nutrition.protein != null ? (
-                <LinearProgress
-                  variant="determinate"
-                  value={Math.min(100, nutrition.protein * 4)}
-                  sx={{ height: 8, borderRadius: 2 }}
-                />
-              ) : (
-                <Typography variant="caption" sx={{ color: "#888", fontStyle: "italic" }}>
-                  Not available
-                </Typography>
-              )}
+        {/* LOADING (shown for the first 1 second) */}
+        {!showInfo && (
+          <Box sx={{ display: "flex", flexDirection: "column", alignItems: "center", py: 2 }}>
+            <Box sx={{ width: 120, height: 120 }}>
+              <Lottie animationData={DNA} loop={true} />
             </Box>
-
-            {/* CARBS */}
-            <Box>
-              <Box sx={{ display: "flex", justifyContent: "space-between", mb: 0.7 }}>
-                <Typography variant="body2" fontWeight={700}>
-                  {macroLabel("Carbs", nutrition.carbs)}
-                </Typography>
-                {nutrition.carbs != null && (
-                  <Typography variant="body2" color="text.secondary">
-                    {nutrition.carbs * 4} kcal
-                  </Typography>
-                )}
-              </Box>
-
-              {nutrition.carbs != null ? (
-                <LinearProgress
-                  variant="determinate"
-                  value={Math.min(100, nutrition.carbs * 3.5)}
-                  sx={{ height: 8, borderRadius: 2 }}
-                />
-              ) : (
-                <Typography variant="caption" sx={{ color: "#888", fontStyle: "italic" }}>
-                  Not available
-                </Typography>
-              )}
-            </Box>
-
-            {/* FAT */}
-            <Box>
-              <Box sx={{ display: "flex", justifyContent: "space-between", mb: 0.7 }}>
-                <Typography variant="body2" fontWeight={700}>
-                  {macroLabel("Fat", nutrition.fat)}
-                </Typography>
-                {nutrition.fat != null && (
-                  <Typography variant="body2" color="text.secondary">
-                    {nutrition.fat * 9} kcal
-                  </Typography>
-                )}
-              </Box>
-
-              {nutrition.fat != null ? (
-                <LinearProgress
-                  variant="determinate"
-                  value={Math.min(100, nutrition.fat * 8)}
-                  sx={{ height: 8, borderRadius: 2 }}
-                />
-              ) : (
-                <Typography variant="caption" sx={{ color: "#888", fontStyle: "italic" }}>
-                  Not available
-                </Typography>
-              )}
-            </Box>
-
-            {/* FIBER */}
-            <Box>
-              <Box sx={{ display: "flex", justifyContent: "space-between", mb: 0.7 }}>
-                <Typography variant="body2" fontWeight={700}>
-                  {macroLabel("Fiber", nutrition.fiber)}
-                </Typography>
-                {nutrition.fiber != null && (
-                  <Typography variant="body2" color="text.secondary">
-                    {nutrition.fiber * 2} kcal
-                  </Typography>
-                )}
-              </Box>
-
-              {nutrition.fiber != null ? (
-                <LinearProgress
-                  variant="determinate"
-                  value={Math.min(100, nutrition.fiber * 10)}
-                  sx={{ height: 8, borderRadius: 2 }}
-                />
-              ) : (
-                <Typography variant="caption" sx={{ color: "#888", fontStyle: "italic" }}>
-                  Not available
-                </Typography>
-              )}
-            </Box>
-          </Stack>
-        </Box>
-
-        <Divider sx={{ my: 2 }} />
-
-        {/* VITAMINS */}
-        <Box>
-          <Typography variant="subtitle1" fontWeight={700} sx={{ mb: 1 }}>
-            Vitamins & Micronutrients
-          </Typography>
-
-          <Box sx={{ display: "flex", gap: 1, flexWrap: "wrap" }}>
-            {nutrition.vitamins.length ? (
-              nutrition.vitamins.map((v, i) => (
-                <Chip key={i} label={v} className="ce-chip-blue" />
-              ))
-            ) : (
-              <Typography color="text.secondary">Not listed</Typography>
-            )}
+            <Typography sx={{ mt: 1, color: "text.secondary" }}>Loading nutrition data…</Typography>
           </Box>
-        </Box>
+        )}
 
-        <Divider sx={{ my: 2 }} />
-
-        {/* CALORIES */}
-        <Box sx={{ display: "flex", justifyContent: "space-between", mt: 1 }}>
+        {/* MAIN INFO: fades in after showInfo === true */}
+        <Fade in={showInfo} timeout={400} unmountOnExit>
           <Box>
-            <Typography variant="subtitle1" fontWeight={800}>
-              Estimated Calories
-            </Typography>
-            <Typography color="text.secondary" sx={{ mt: 0.5 }}>
-              (Based on macros in the description)
-            </Typography>
-          </Box>
+            {/* MACRONUTRIENTS */}
+            <Box sx={{ mt: 1 }}>
+              <Typography variant="subtitle1" fontWeight={700} sx={{ mb: 1 }}>
+                Macronutrients
+              </Typography>
 
-          <Typography variant="h5" fontWeight={900}>
-            {nutrition.estCalories != null ? `${nutrition.estCalories} kcal` : "N/A"}
-          </Typography>
-        </Box>
+              <Stack spacing={1}>
+                {/* PROTEIN */}
+                <Box>
+                  <Box sx={{ display: "flex", justifyContent: "space-between", mb: 0.7 }}>
+                    <Typography variant="body2" fontWeight={700}>
+                      {macroLabel("Protein", nutrition.protein)}
+                    </Typography>
+                    {nutrition.protein != null && (
+                      <Typography variant="body2" color="text.secondary">
+                        {nutrition.protein * 4} kcal
+                      </Typography>
+                    )}
+                  </Box>
+
+                  {nutrition.protein != null ? (
+                    <LinearProgress
+                      variant="determinate"
+                      value={Math.min(100, nutrition.protein * 4)}
+                      sx={{ height: 8, borderRadius: 2 }}
+                    />
+                  ) : (
+                    <Typography variant="caption" sx={{ color: "#888", fontStyle: "italic" }}>
+                      Not available
+                    </Typography>
+                  )}
+                </Box>
+
+                {/* CARBS */}
+                <Box>
+                  <Box sx={{ display: "flex", justifyContent: "space-between", mb: 0.7 }}>
+                    <Typography variant="body2" fontWeight={700}>
+                      {macroLabel("Carbs", nutrition.carbs)}
+                    </Typography>
+                    {nutrition.carbs != null && (
+                      <Typography variant="body2" color="text.secondary">
+                        {nutrition.carbs * 4} kcal
+                      </Typography>
+                    )}
+                  </Box>
+
+                  {nutrition.carbs != null ? (
+                    <LinearProgress
+                      variant="determinate"
+                      value={Math.min(100, nutrition.carbs * 3.5)}
+                      sx={{ height: 8, borderRadius: 2 }}
+                    />
+                  ) : (
+                    <Typography variant="caption" sx={{ color: "#888", fontStyle: "italic" }}>
+                      Not available
+                    </Typography>
+                  )}
+                </Box>
+
+                {/* FAT */}
+                <Box>
+                  <Box sx={{ display: "flex", justifyContent: "space-between", mb: 0.7 }}>
+                    <Typography variant="body2" fontWeight={700}>
+                      {macroLabel("Fat", nutrition.fat)}
+                    </Typography>
+                    {nutrition.fat != null && (
+                      <Typography variant="body2" color="text.secondary">
+                        {nutrition.fat * 9} kcal
+                      </Typography>
+                    )}
+                  </Box>
+
+                  {nutrition.fat != null ? (
+                    <LinearProgress
+                      variant="determinate"
+                      value={Math.min(100, nutrition.fat * 8)}
+                      sx={{ height: 8, borderRadius: 2 }}
+                    />
+                  ) : (
+                    <Typography variant="caption" sx={{ color: "#888", fontStyle: "italic" }}>
+                      Not available
+                    </Typography>
+                  )}
+                </Box>
+
+                {/* FIBER */}
+                <Box>
+                  <Box sx={{ display: "flex", justifyContent: "space-between", mb: 0.7 }}>
+                    <Typography variant="body2" fontWeight={700}>
+                      {macroLabel("Fiber", nutrition.fiber)}
+                    </Typography>
+                    {nutrition.fiber != null && (
+                      <Typography variant="body2" color="text.secondary">
+                        {nutrition.fiber * 2} kcal
+                      </Typography>
+                    )}
+                  </Box>
+
+                  {nutrition.fiber != null ? (
+                    <LinearProgress
+                      variant="determinate"
+                      value={Math.min(100, nutrition.fiber * 10)}
+                      sx={{ height: 8, borderRadius: 2 }}
+                    />
+                  ) : (
+                    <Typography variant="caption" sx={{ color: "#888", fontStyle: "italic" }}>
+                      Not available
+                    </Typography>
+                  )}
+                </Box>
+              </Stack>
+            </Box>
+
+            <Divider sx={{ my: 2 }} />
+
+            {/* VITAMINS */}
+            <Box>
+              <Typography variant="subtitle1" fontWeight={700} sx={{ mb: 1 }}>
+                Vitamins & Micronutrients
+              </Typography>
+
+              <Box sx={{ display: "flex", gap: 1, flexWrap: "wrap" }}>
+                {nutrition.vitamins.length ? (
+                  nutrition.vitamins.map((v, i) => (
+                    <Chip key={i} label={v} className="ce-chip-blue" />
+                  ))
+                ) : (
+                  <Typography color="text.secondary">Not listed</Typography>
+                )}
+              </Box>
+            </Box>
+
+            <Divider sx={{ my: 2 }} />
+
+            {/* CALORIES */}
+            <Box sx={{ display: "flex", justifyContent: "space-between", mt: 1 }}>
+              <Box>
+                <Typography variant="subtitle1" fontWeight={800}>
+                  Estimated Calories
+                </Typography>
+                <Typography color="text.secondary" sx={{ mt: 0.5 }}>
+                  (Based on macros in the description)
+                </Typography>
+              </Box>
+
+              <Typography variant="h5" fontWeight={900}>
+                {nutrition.estCalories != null ? `${nutrition.estCalories} kcal` : "N/A"}
+              </Typography>
+            </Box>
+          </Box>
+        </Fade>
       </DialogContent>
     </Dialog>
   );
