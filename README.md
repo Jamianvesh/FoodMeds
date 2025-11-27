@@ -35,6 +35,7 @@ The objective is to build a self-contained health engine without third-party API
 
 ### 🔹 Composition Explorer Page
 - Shows the contents of each food item selected by the user.
+  
 
 ### 🔹 Disease Cure and Nutrition Guide Page
 - Gives the required nutrients and foods based on given disease or symptoms.
@@ -77,7 +78,13 @@ Displays and allows editing of user details stored in MongoDB.
 ### 🔸 5. Nutrition Guide Page
 Gives the required nutrients and proteins based on give disease or symptoms.
 
-### 🔸 6. About Page
+### 🔸 6. Diet Planner page
+Gives a personalised diet plan based on the disease entered by user.
+
+### 🔸 7. AI chatbot Page
+Increases the user interaction by allowing him/her to ask any personal doubts related to thier health or diet.
+
+### 🔸 8. About Page
 Gives the details about our web application.
 
 ---
@@ -104,21 +111,24 @@ Gives the details about our web application.
 
    <img src="Images/Image 6.png" alt="Food Composition Details" width="300" />
 
-**6. When you click on Disease Cure & Nutrition Guide on the sidebar, you'll get a page like this where you need to give any disease as input.**
+  
+ **6. When you click on the diet planner on the sidebar , it opens a page and  asks for the disease and your activity status and gives you the diet based on the entered data.**
+
+   (diet planner page pic)Img1& Img2
+
+
+**7. When you click on Nutrition Guide on the sidebar, you'll get a page like this where you need to give any disease as input.**
 
    <img src="Images/Image 7.png" alt="Nutrition Guide Input" width="300" />
 
-**7. Based on the given disease or symptoms, it gives the nutrients, vitamins, and proteins required by you and foods to eat by you to get cured or feel better.** 
+**8. Based on the given disease or symptoms, it gives the nutrients, vitamins, and proteins required by you and foods to eat by you to get cured or feel better.** 
 
    <img src="Images/Image 8.png" alt="Nutrition Suggestions" width="300" />
 
-**8. On clicking the Profile icon, you'll get options to update your profile anytime by adding your profile picture, and you can also edit username and password.**
+**9. On clicking the Profile icon, you'll get options to update your profile anytime by adding your profile picture, and you can also edit username and password.**
 
    <img src="Images/Image 9.png" alt="Profile Page" width="300" />
 
-**9. When you click the About option in the sidebar, you will see the pages that are available in this web application.**
-
-   <img src="Images/Image 10.png" alt="About Page" width="300" />
    
 **10. When you select AI ChatBot in the sidebar, you will be able to interact with a AI Assistant that can reply for the questions related to food, recipes, diseases, nutritions, .. anything that relates with our web application.**
     **Anything out of domain will get an out of scope message from AI Assistant.**
@@ -137,22 +147,26 @@ Gives the details about our web application.
 | Member      | Contribution |
 |-------------|--------------|
 | Dakshayani | Designed nutrition guide page which gives the required nutrients and proteins for the disease asked by user |
-| Anvesh      | Designed and developed the Authentication and opening pages and integrated the dashboardhome ,composition explorer and profile page with stylish UI |
+| Anvesh      | Designed and developed the Authentication and opening  and AI chatbot pages and integrated the dashboardhome ,composition explorer and profile page with stylish UI |
+| Vishnu      | Built the Dashboard and implemented manual health computations and took care of manual duty related to database and ppt |
 | Sreeja      | Built the Composition explorer page frontend and backend + Readme file of the project |
-| Akshaya     | Created diet plan page based on disease input given by user + integration of Nutrition Guide page + documentation |
+| Akshaya     | Created diet plan page based on disease input given by user +  documentation |
 | Mann        | Developed the Profile Page with editing options and gathered info about food items. |
-| Vishnu      | Built the Dashboard and implemented manual health computations and took care of manual duty related to database. |
 
 ---
 
-## 🔮 Future Enhancements(Release 2)
+##  Enhancements after  R1:
+-  Diet planner page
+-  AI chatbot page
+-  Floating action button
+
+
+## 🔮 Future Enhancements
 
 -  AI/ML-based predictive health analysis  
 -  Progress tracker
--  AI chatbot for more interaction
 -  Mobile app version for wider accessibility  
 -  Extended user profile customization
--  Work on diet planner page and make it more practical
 
 ---
 
