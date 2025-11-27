@@ -36,7 +36,6 @@ The objective is to build a self-contained health engine without third-party API
 ### 🔹 Composition Explorer Page
 - Shows the contents of each food item selected by the user.
   
-
 ### 🔹 Disease Cure and Nutrition Guide Page
 - Gives the required nutrients and foods based on given disease or symptoms.
 
@@ -112,7 +111,7 @@ Gives the details about our web application.
    <img src="Images/Image 6.png" alt="Food Composition Details" width="300" />
 
   
- **6. When you click on the diet planner on the sidebar , it opens a page and  asks for the disease and your activity status and gives you the diet based on the entered data.**
+ **6. When you click on the diet planner on the sidebar , it opens a page and asks for the disease and your activity status and gives you the diet based on the entered data.**
 
    (diet planner page pic)Img1& Img2
 
@@ -147,7 +146,7 @@ Gives the details about our web application.
 | Member      | Contribution |
 |-------------|--------------|
 | Dakshayani | Designed nutrition guide page which gives the required nutrients and proteins for the disease asked by user |
-| Anvesh      | Designed and developed the Authentication and opening  and AI chatbot pages and integrated the dashboardhome ,composition explorer and profile page with stylish UI |
+| Anvesh      | Designed and developed the Authentication and opening and AI chatbot pages and integrated the dashboardhome ,composition explorer and profile page with stylish UI |
 | Vishnu      | Built the Dashboard and implemented manual health computations and took care of manual duty related to database and ppt |
 | Sreeja      | Built the Composition explorer page frontend and backend + Readme file of the project |
 | Akshaya     | Created diet plan page based on disease input given by user +  documentation |
