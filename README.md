@@ -104,7 +104,7 @@ Gives the details about our web application.
 
    <img src="Images/Image 6.png" alt="Food Composition Details" width="300" />
 
-**6. When you click on Nutrition Guide on the sidebar, you'll get a page like this where you need to give any disease as input.**
+**6. When you click on Disease Cure & Nutrition Guide on the sidebar, you'll get a page like this where you need to give any disease as input.**
 
    <img src="Images/Image 7.png" alt="Nutrition Guide Input" width="300" />
 
@@ -119,6 +119,16 @@ Gives the details about our web application.
 **9. When you click the About option in the sidebar, you will see the pages that are available in this web application.**
 
    <img src="Images/Image 10.png" alt="About Page" width="300" />
+   
+**10. When you select AI ChatBot in the sidebar, you will be able to interact with a AI Assistant that can reply for the questions related to food, recipes, diseases, nutritions, .. anything that relates with our web application.**
+    **Anything out of domain will get an out of scope message from AI Assistant.**
+
+   <img src="Images/Image 11.png" alt="About Page" width="300" /> <img src="Images/Image 12.png" alt="About Page" width="300" />
+
+**At last u can go for a LOGOUT option to get your account out of this application.**
+
+  <img src="Images/Image 13.png" alt="About Page" width="300" />
+   
 
 ---
 
