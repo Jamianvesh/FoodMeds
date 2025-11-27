@@ -1,8 +1,8 @@
-# 🌿 FOODMEDS- Personalised Diet and Health Tracker(Release 1)
+# 🌿 FOODMEDS- Personalised Diet and Health Tracker
 
 A full-stack health insights web application that computes BMI, **calorie needs**, **nutrient breakdown**, and **body composition** using manual logic and APIs  
 
-Users can sign up, view personalized dashboards, edit profiles, and explore modular UI pages — all backed by a clean React frontend and secure Mongo Db storage.
+Users can sign up, view personalized dashboards, chat with AI Assistant, edit profiles, and explore modular UI pages — all backed by a clean React frontend and secure Mongo Db storage.
 
 ---
 
