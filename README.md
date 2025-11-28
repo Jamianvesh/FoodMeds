@@ -35,12 +35,21 @@ The objective is to build a self-contained health engine without third-party API
 
 ### 🔹 Composition Explorer Page
 - Shows the contents of each food item selected by the user.
-  
+
+### 🔹 Personalised Diet Plan Page
+- Gives a personalised diet plan on entering the disease and the activity status of the user.
+
+### 🔹 AI chatbot
+- User can chat with AI assistant regarding any queries based on the diet plan, health or anything.
+
 ### 🔹 Disease Cure and Nutrition Guide Page
 - Gives the required nutrients and foods based on given disease or symptoms.
 
 ### 🔹 Modular Navigation
 - Separate pages for Sign-Up, Dashboard, Profile, Additional, and Composite navigation.
+
+### 🔹 User friendly interface
+- UI is user friendly and has good USABILITY, can be navigated and used by people of all age groups.
 
 ---
 
@@ -55,6 +64,34 @@ The objective is to build a self-contained health engine without third-party API
 | Tools    | VS Code,  GitHub |
 
 ---
+
+📦 Installation & Libraries Used
+
+To run this project locally, install the following:
+
+🔧 Core Requirements :
+- Requirement	Version / Notes
+- Node.js	v18+ recommended
+- npm	Comes with Node
+- MongoDB	Local installation or Atlas Cloud
+
+📚 Frontend Libraries :
+- React	Core frontend framework
+- Vite	Dev server and build system
+- Material UI (MUI)	UI components and styling
+- Recharts	Graphs and charts
+- Axios	API requests
+- React Router DOM	Navigation between pages
+- React Icons	Icons for UI
+
+🖥️ Backend Libraries
+- Express.js	Backend server
+- Mongoose	MongoDB ODM
+- bcryptjs	Password hashing
+- jsonwebtoken	Authentication
+- cors	Cross-origin support
+- dotenv
+
 
 ## 📄 Project Pages
 
@@ -89,6 +126,23 @@ Gives the details about our web application.
 ---
 
 ## ▶ Usage Guide
+
+## 🎥 User Guide Video
+
+We have created a detailed video guide that explains how to use every feature of our FOODMEDS application, including:
+
+- How to register and log in  
+- Navigating through the dashboard  
+- Using the Composition Explorer  
+- Getting a personalised diet plan  
+- Checking nutrient requirements using the Nutrition Guide(Disease Cure).
+- Editing your profile  
+- Using the AI Chatbot  
+
+👉 **Watch the Full User Guide Video here:**  
+**[USER GUIDE VIDEO LINK]\** =**(https://drive.google.com/file/d/1L7G8k3ZvgTHYrm_mCSZitHa_kUigOcjN/view?usp=drive_link)** 
+
+**NOTE: This is video was done for R1, so it doesn't have new features like AI chat and diet planner.You can check out these pages in the given images below.**
 
 **1. When you open the web application, it will open the welcome page.**  
 
