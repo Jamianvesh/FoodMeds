@@ -2,7 +2,7 @@
 
 A full-stack health insights web application that computes BMI, **calorie needs**, **nutrient breakdown**, and **body composition** using manual logic and APIs  
 
-Users can sign up, view personalized dashboards, chat with AI Assistant, edit profiles, and explore modular UI pages — all backed by a clean React frontend and secure Mongo Db storage.
+Users can sign up, view personalized dashboards, chat with AI Assistant, get personalised diet plan, edit profiles, and explore modular UI pages — all backed by a clean React frontend and secure MongoDB storage.
 
 ---
 
@@ -13,7 +13,7 @@ This application gathers user inputs (age, gender, height, weight) and uses cust
 - Body Mass Index (BMI)  
 - Body composition indicators.
 - Daily calorie requirements.
-- Personalised Diet Plan based on their health condition 
+- Personalised Diet Plan based on the user's health condition.
 
 The objective is to build a self-contained health engine without third-party API dependency.
 
@@ -22,13 +22,13 @@ The objective is to build a self-contained health engine without third-party API
 ## 🧩 Features
 
 ### 🔹 Manual Computations
-- BMI, calorie intake, and nutrient distribution calculated manually using JavaScript logic and API.
+- BMI, calorie intake, and nutrient distribution calculated manually using JavaScript logic .
 
 ### 🔹 Authentication & User Data Input
 - Sign-Up form with validations for user details.
 
 ### 🔹 Dynamic Dashboard
-- Displays all computed health metrics in a clean, easy-to-read format. i.e pie chart, bar graph etc
+- Displays all computed health metrics in a clean, easy-to-read format such as pie chart, bar graph etc
 
 ### 🔹 Profile Page
 - Shows stored user details with edit options.
@@ -48,8 +48,8 @@ The objective is to build a self-contained health engine without third-party API
 ### 🔹 Modular Navigation
 - Separate pages for Sign-Up, Dashboard, Profile, Additional, and Composite navigation.
 
-### 🔹 User friendly interface
-- UI is user friendly and has good USABILITY, can be navigated and used by people of all age groups.
+### 🔹 User-friendly interface
+- UI is user friendly and has great USABILITY, can be navigated and used by people of all age groups.
 
 ---
 
@@ -57,10 +57,10 @@ The objective is to build a self-contained health engine without third-party API
 
 | Layer       | Technologies |
 |-------------|--------------|
-| Frontend | React vite|
+| Frontend | React Vite|
 | Backend  | Node.js (Express) |
 | Database | MongoDB |
-| Styling  | CSS  and Material UI |
+| Styling  | CSS and Material UI |
 | Tools    | VS Code,  GitHub |
 
 ---
@@ -69,7 +69,7 @@ The objective is to build a self-contained health engine without third-party API
 
 To run this project locally, install the following:
 
-🔧 Core Requirements :
+###🔧 Core Requirements ###:
 - Requirement	Version / Notes
 - Node.js	v18+ recommended
 - npm	Comes with Node
@@ -112,13 +112,13 @@ Manually calculates and displays :
 Displays and allows editing of user details stored in MongoDB.
 
 ### 🔸 5. Nutrition Guide Page
-Gives the required nutrients and proteins based on give disease or symptoms.
+Gives the required nutrients and proteins based on given disease or symptoms.
 
 ### 🔸 6. Diet Planner page
 Gives a personalised diet plan based on the disease entered by user.
 
 ### 🔸 7. AI chatbot Page
-Increases the user interaction by allowing him/her to ask any personal doubts related to thier health or diet.
+Increases the user interaction by allowing him/her to ask any personal doubts related to their health or diet.
 
 ### 🔸 8. About Page
 Gives the details about our web application.
@@ -142,7 +142,7 @@ We have created a detailed video guide that explains how to use every feature of
 👉 **Watch the Full User Guide Video here:**  
 **[USER GUIDE VIDEO LINK]\** =**(https://drive.google.com/file/d/1L7G8k3ZvgTHYrm_mCSZitHa_kUigOcjN/view?usp=drive_link)** 
 
-**NOTE: This is video was done for R1, so it doesn't have new features like AI chat and diet planner.You can check out these pages in the given images below.**
+**NOTE: This is video was recorded for R1, so it doesn't have new features like AI chat and diet planner.You can check out these pages in the given images below.**
 
 **1. When you open the web application, it will open the welcome page.**  
 
@@ -152,7 +152,7 @@ We have created a detailed video guide that explains how to use every feature of
 
    <img src="Images/Image 2.png" alt="Sign-Up Page" width="300" />
 
-**3. Once you are logged in, you can see the dashboard where your healthy body composition is displayed like this.**
+**3. Once you are logged in, you can see the dashboard where your healthy body composition metrics are displayed like this.**
 
    <img src="Images/Image 3.png" alt="Dashboard View 1" width="300" /> <img src="Images/Image 4.png" alt="Dashboard View 2" width="300" />
   
@@ -183,12 +183,12 @@ We have created a detailed video guide that explains how to use every feature of
    <img src="Images/Image 9.png" alt="Profile Page" width="300" />
 
    
-**10. When you select AI ChatBot in the sidebar, you will be able to interact with a AI Assistant that can reply for the questions related to food, recipes, diseases, nutritions, .. anything that relates with our web application.**
+**10. When you select AI ChatBot in the sidebar, you will be able to interact with a AI Assistant that can reply to the questions related to food, recipes, diseases, nutrition, .. anything that relates with our web application.**
     **Anything out of domain will get an out of scope message from AI Assistant.**
 
    <img src="Images/Image 11.png" alt="About Page" width="300" /> <img src="Images/Image 12.png" alt="About Page" width="300" />
 
-**At last u can go for a LOGOUT option to get your account out of this application.**
+**At last you can go for a LOGOUT option to get your account out of this application.**
 
   <img src="Images/Image 13.png" alt="About Page" width="300" />
    
@@ -201,7 +201,7 @@ We have created a detailed video guide that explains how to use every feature of
 |-------------|--------------|
 | Dakshayani | Designed nutrition guide page which gives the required nutrients and proteins for the disease asked by user |
 | Anvesh      | Designed and developed the Authentication and opening and AI chatbot pages and integrated the dashboardhome ,composition explorer and profile page with stylish UI |
-| Vishnu      | Built the Dashboard and implemented manual health computations and took care of manual duty related to database and ppt |
+| Vishnu      | Built the Dashboard and implemented manual health computations and took care of manual duty related to database and presentation work |
 | Sreeja      | Built the Composition explorer page frontend and backend + Readme file of the project |
 | Akshaya     | Created diet plan page based on disease input given by user +  documentation |
 | Mann        | Developed the Profile Page with editing options and gathered info about food items. |
@@ -226,6 +226,6 @@ We have created a detailed video guide that explains how to use every feature of
 ## ⚠ *NOTE*
 
 Since we haven't deployed yet, to run this project locally, you will need certain *sensitive configuration files* (such as MongoDb keys and environment variables) which are *not included in this public repository* for security reasons.  
-We had created dummy .env files named .env.example but did not filled the values for the keys in those files.                                 
-If you would like to access these info , please feel free to contact us.
+We had created dummy .env files named .env.example but did not fill the values for the keys in those files.                                 
+If you would like to access this info , please feel free to contact us.
 
