@@ -4,7 +4,7 @@ import App from "./App";
 import { CssBaseline, ThemeProvider, createTheme } from "@mui/material";
 import "./index.css";
 import { AuthProvider } from "./context/AuthContext";
-
+import "./App.css";
 // 🌿 Mint Green + Aqua Blue Hybrid Theme (original balanced colors)
 const theme = createTheme({
   palette: {

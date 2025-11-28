@@ -11,6 +11,7 @@ import ResetPassword from "./pages/ResetPassword";
 import AuthChecker from "./components/AuthChecker";
 import Dashboard from "./pages/Dashboard";
 import ProtectedRoute from "./components/ProtectedRoute";
+import DietPlanPage from "./components/DietPlanPage";
 
 function AnimatedRoutes() {
   const aboutRef = useRef(null);
@@ -78,6 +79,14 @@ function AnimatedRoutes() {
                 <Dashboard />
               </ProtectedRoute>
             }
+          />
+
+          <Route
+            path="/diet-plan"
+            element={
+              <ProtectedRoute>
+                <DietPlanPage />
+              </ProtectedRoute> }
           />
 
         </Routes>
