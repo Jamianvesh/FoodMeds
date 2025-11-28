@@ -69,7 +69,7 @@ The objective is to build a self-contained health engine without third-party API
 
 To run this project locally, install the following:
 
-###🔧 Core Requirements ###:
+🔧 Core Requirements :
 - Requirement	Version / Notes
 - Node.js	v18+ recommended
 - npm	Comes with Node
