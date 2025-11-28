@@ -65,12 +65,12 @@ The objective is to build a self-contained health engine without third-party API
 
 ---
 
-📦 Installation & Libraries Used
+## 📦 Installation & Libraries Used
 
 To run this project locally, install the following:
 
 🔧 Core Requirements :
-- Requirement	Version / Notes
+- A Text editor like VS code 
 - Node.js	v18+ recommended
 - npm	Comes with Node
 - MongoDB	Local installation or Atlas Cloud
@@ -167,8 +167,7 @@ We have created a detailed video guide that explains how to use every feature of
   
  **6. When you click on the diet planner on the sidebar , it opens a page and asks for the disease and your activity status and gives you the diet based on the entered data.**
 
-   (diet planner page pic)Img1& Img2
-
+   <img src="Images/Image 14.jpg" alt="Nutrition Guide Input" width="300" /> <img src="Images/Image 15.jpg" alt="Nutrition Guide Input" width="300" />
 
 **7. When you click on Nutrition Guide on the sidebar, you'll get a page like this where you need to give any disease as input.**
 
@@ -200,7 +199,7 @@ We have created a detailed video guide that explains how to use every feature of
 | Member      | Contribution |
 |-------------|--------------|
 | Dakshayani | Designed nutrition guide page which gives the required nutrients and proteins for the disease asked by user |
-| Anvesh      | Designed and developed the Authentication and opening and AI chatbot pages and integrated the dashboardhome ,composition explorer and profile page with stylish UI |
+| Anvesh      | Designed and developed the Authentication, opening and AI chatbot pages and integrated remaining pages with stylish UI |
 | Vishnu      | Built the Dashboard and implemented manual health computations and took care of manual duty related to database and presentation work |
 | Sreeja      | Built the Composition explorer page frontend and backend + Readme file of the project |
 | Akshaya     | Created diet plan page based on disease input given by user +  documentation |
